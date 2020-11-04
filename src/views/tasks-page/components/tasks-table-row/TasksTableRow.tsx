@@ -8,6 +8,9 @@ interface IProps {
 
 const TasksTableRow: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) => {
   const { rowData } = props;
+  function createMarkup(something: string) {
+    return { __html: something };
+  }
 
   return (
     <Table.Row key={rowData.task}>
@@ -17,6 +20,9 @@ const TasksTableRow: React.FC<IProps> = (props: React.PropsWithChildren<IProps>)
       <Table.Cell>{rowData.task}</Table.Cell>
       <Table.Cell>{rowData.date}</Table.Cell>
       <Table.Cell>{rowData.name}</Table.Cell>
+      <td className="">
+        <div dangerouslySetInnerHTML={createMarkup(rowData.summary)} />
+      </td>
     </Table.Row>
   );
 };

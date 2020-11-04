@@ -12,6 +12,7 @@ import Toasts from './components/toasts/Toasts';
 const HomePage = lazy(() => import('./home-page/HomePage'));
 const NotFoundPage = lazy(() => import('./not-found-page/NotFoundPage'));
 const TasksPage = lazy(() => import('./tasks-page/TasksPage'));
+const GamePage = lazy(() => import('./game-page/GamePage'));
 const ErrorsamplePage = lazy(() => import('./errorsample-page/ErrorsamplePage'));
 
 interface IProps {
@@ -27,6 +28,7 @@ const App: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) => {
         <Switch>
           <Route exact={true} path={RouteEnum.Home} component={HomePage} />
           <Route path={RouteEnum.Tasks} component={TasksPage} />
+          <Route path={RouteEnum.Game} component={GamePage} />
           <Route path={RouteEnum.Errorsample} component={ErrorsamplePage} />
           <Route component={NotFoundPage} />
         </Switch>

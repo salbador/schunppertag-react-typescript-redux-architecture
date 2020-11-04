@@ -18,9 +18,10 @@ const TasksTable: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) =>
         <Table.Header>
           <Table.Row>
             <Table.HeaderCell width={1}>Scene</Table.HeaderCell>
-            <Table.HeaderCell>Task</Table.HeaderCell>
+            <Table.HeaderCell>Order</Table.HeaderCell>
             <Table.HeaderCell>Date</Table.HeaderCell>
             <Table.HeaderCell>Name</Table.HeaderCell>
+            <Table.HeaderCell>Task</Table.HeaderCell>
           </Table.Row>
         </Table.Header>
         <Table.Body>

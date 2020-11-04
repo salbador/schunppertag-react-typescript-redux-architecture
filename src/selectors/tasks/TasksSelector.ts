@@ -26,6 +26,7 @@ const _createTableRows = (models: TaskModel[]): ITaskTableRow[] => {
       name: model.name,
       date: dayjs(model.addeddate).format('MMM D, YYYY'),
       image: model.image.medium,
+      summary: model.summary,
     })
   );
 };

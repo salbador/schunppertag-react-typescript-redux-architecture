@@ -12,9 +12,9 @@ export default function baseEnv(baseApi: string) {
       baseRoute: '/schunppertag-react-typescript-redux-architecture', // Fixes issue with Github Pages
     },
     api: {
-      board: `${baseApi}/board.json`,
-      tasks: `${baseApi}/tasks.json`,
-      tiles: `${baseApi}/tiles.json`,
+      board: `${baseApi}/db/board.json`,
+      tasks: `${baseApi}/db/tasks.json`,
+      tiles: `${baseApi}/db/tiles.json`,
       errorExample: 'https://httpstat.us/520',
     },
     isProduction: true,
