@@ -43,7 +43,7 @@ B: Think about how you can calculate a total score for the current game state.
 - In the 4th column the "1" slides down.
 - Since the player is pressing down, a number is randomly added to the top row. In this case a "1" at the top right.
 
-| ![Before Move](./view1.png 'Before Move') | Key Down ![Press Down Key](./download.png 'download') | then all numbers fall ![After push down key](./view2.png 'After Moved') | and twins are added
+| ![Before Move](./assets/images/view1.png 'Before Move') | Key Down ![Press Down Key](./assets/images/download.png 'download') | then all numbers fall ![After push down key](./assets/images/view2.png 'After Moved') | and twins are added
 
 ## Create React App
 
