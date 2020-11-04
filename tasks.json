@@ -1,0 +1,326 @@
+[
+  {
+    "id": 4154,
+    "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+    "name": "Task A",
+    "season": 0,
+    "number": 1,
+    "type": "regular",
+    "airdate": "2020-10-03",
+    "airtime": "22:00",
+    "airstamp": "2020-10-03T03:00:00+00:00",
+    "runtime": 60,
+    "image": {
+      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/68/171372.jpg",
+      "original": "http://static.tvmaze.com/uploads/images/original_untouched/68/171372.jpg"
+    },
+    "summary": "<p>A : Develop a game with the techniques of your choice. The game should reflect the following rules:.</p>",
+    "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+  },
+  {
+    "id": 4155,
+    "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+    "name": "4x4",
+    "season": 1,
+    "number": 1,
+    "type": "regular",
+    "airdate": "2020-10-03",
+    "airtime": "22:00",
+    "airstamp": "2020-10-03T03:00:00+00:00",
+    "runtime": 60,
+    "image": {
+      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22633.jpg",
+      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22633.jpg"
+    },
+    "summary": "<p>[✔]  The playing field consists of 4 x 4 fields.</p>",
+    "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+  },
+  {
+    "id": 4156,
+    "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+    "name": "1 or 2",
+    "season": 1,
+    "number": 2,
+    "type": "regular",
+    "airdate": "2020-10-03",
+    "airtime": "22:00",
+    "airstamp": "2020-10-03T03:00:00+00:00",
+    "runtime": 60,
+    "image": {
+      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22634.jpg",
+      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22634.jpg"
+    },
+    "summary": "<p>- Each field is initialized randomly with the value EMPTY, 1 or 2.</p>",
+    "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+  },
+  {
+    "id": 4157,
+    "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+    "name": "Left Right Up down",
+    "season": 1,
+    "number": 3,
+    "type": "regular",
+    "airdate": "2020-10-03",
+    "airtime": "22:00",
+    "airstamp": "2020-10-03T03:00:00+00:00",
+    "runtime": 60,
+    "image": {
+      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22635.jpg",
+      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22635.jpg"
+    },
+    "summary": "<p>- The player can move the playing field with the cursor keys Left, Right, Up, Down.</p>",
+    "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+  },
+  {
+    "id": 4158,
+    "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+    "name": "Direction",
+    "season": 1,
+    "number": 4,
+    "type": "regular",
+    "airdate": "2020-10-03",
+    "airtime": "22:00",
+    "airstamp": "2020-10-03T03:00:00+00:00",
+    "runtime": 60,
+    "image": {
+      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22636.jpg",
+      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22636.jpg"
+    },
+    "summary": "<p>- Hereby each field moves one field in the corresponding direction.</p>",
+    "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+  },
+  {
+    "id": 4159,
+    "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+    "name": "Edge bound",
+    "season": 1,
+    "number": 5,
+    "type": "regular",
+    "airdate": "2020-10-03",
+    "airtime": "22:00",
+    "airstamp": "2020-10-03T03:00:00+00:00",
+    "runtime": 60,
+    "image": {
+      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22637.jpg",
+      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22637.jpg"
+    },
+    "summary": "<p>- A field cannot be moved beyond the edge of the playing field.</p>",
+    "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+  },
+  {
+    "id": 4160,
+    "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+    "name": "Blocking Number",
+    "season": 1,
+    "number": 6,
+    "type": "regular",
+    "airdate": "2020-10-03",
+    "airtime": "22:00",
+    "airstamp": "2020-10-03T03:00:00+00:00",
+    "runtime": 60,
+    "image": {
+      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22638.jpg",
+      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22638.jpg"
+    },
+    "summary": "<p>- A field cannot move into its direction, if the field in the corresponding direction is already occupied and does not have the same value.</p>",
+    "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+  },
+  {
+    "id": 4161,
+    "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+    "name": "Identical Number",
+    "season": 1,
+    "number": 7,
+    "type": "regular",
+    "airdate": "2020-10-03",
+    "airtime": "22:00",
+    "airstamp": "2020-10-03T03:00:00+00:00",
+    "runtime": 60,
+    "image": {
+      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22639.jpg",
+      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22639.jpg"
+    },
+    "summary": "<p>- A field can be moved to another field if both values of the fields are identical.</p>",
+    "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+  },
+  {
+    "id": 4162,
+    "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+    "name": "Twins double",
+    "season": 1,
+    "number": 8,
+    "type": "regular",
+    "airdate": "2020-10-03",
+    "airtime": "22:00",
+    "airstamp": "2020-10-03T03:00:00+00:00",
+    "runtime": 60,
+    "image": {
+      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22640.jpg",
+      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22640.jpg"
+    },
+    "summary": "<p>- If this happens, one field is removed and the value of the other field is doubled.</p>",
+    "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+  },
+  {
+    "id": 4163,
+    "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+    "name": "Add more",
+    "season": 1,
+    "number": 9,
+    "type": "regular",
+    "airdate": "2020-10-03",
+    "airtime": "22:00",
+    "airstamp": "2020-10-03T03:00:00+00:00",
+    "runtime": 60,
+    "image": {
+      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22641.jpg",
+      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22641.jpg"
+    },
+    "summary": "<p>- After each move, a 1 or 2 is randomly added at the opposite edge of the move direction, on an empty field.</p>",
+    "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+  },
+  {
+    "id": 4164,
+    "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+    "name": "Game over?",
+    "season": 1,
+    "number": 10,
+    "type": "regular",
+    "airdate": "2020-10-03",
+    "airtime": "22:00",
+    "airstamp": "2020-10-03T03:00:00+00:00",
+    "runtime": 60,
+    "image": {
+      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22642.jpg",
+      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22642.jpg"
+    },
+    "summary": "<p>- The game is over when there are no more valid moves.</p>",
+    "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+  },
+  {
+    "id": 4165,
+    "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+    "name": "Task B",
+    "season": 2,
+    "number": 1,
+    "type": "regular",
+    "airdate": "2020-10-03",
+    "airtime": "21:00",
+    "airstamp": "2020-10-03T01:00:00+00:00",
+    "runtime": 60,
+    "image": {
+      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22643.jpg",
+      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22643.jpg"
+    },
+    "summary": "<p>B: Think about how you can calculate a total score for the current game state.</p>",
+    "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+  },
+  {
+    "id": 4166,
+    "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+    "name": "Player Starts",
+    "season": 2,
+    "number": 2,
+    "type": "regular",
+    "airdate": "2020-10-03",
+    "airtime": "21:00",
+    "airstamp": "2020-10-03T01:00:00+00:00",
+    "runtime": 60,
+    "image": {
+      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22644.jpg",
+      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22644.jpg"
+    },
+    "summary": "<p>- The player starts with the left game state and presses the Down button.</p>",
+    "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+  },
+  {
+    "id": 4167,
+    "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+    "name": "1st Blocked",
+    "season": 2,
+    "number": 3,
+    "type": "regular",
+    "airdate": "2020-10-03",
+    "airtime": "21:00",
+    "airstamp": "2020-10-03T01:00:00+00:00",
+    "runtime": 60,
+    "image": {
+      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22645.jpg",
+      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22645.jpg"
+    },
+    "summary": "<p>- The 1st column does not move because each field is blocked.</p>",
+    "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+  },
+  {
+    "id": 4168,
+    "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+    "name": "2nd Slips",
+    "season": 2,
+    "number": 4,
+    "type": "regular",
+    "airdate": "2020-10-03",
+    "airtime": "21:00",
+    "airstamp": "2020-10-03T01:00:00+00:00",
+    "runtime": 60,
+    "image": {
+      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22646.jpg",
+      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22646.jpg"
+    },
+    "summary": "<p>- In the 2. column the 2s connect to 4. The 1 slips into the free field.</p>",
+    "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+  },
+  {
+    "id": 4169,
+    "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+    "name": "3rd Connected",
+    "season": 2,
+    "number": 5,
+    "type": "regular",
+    "airdate": "2020-10-03",
+    "airtime": "21:00",
+    "airstamp": "2020-10-03T01:00:00+00:00",
+    "runtime": 60,
+    "image": {
+      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22647.jpg",
+      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22647.jpg"
+    },
+    "summary": "<p>- In the 3rd column the 1's that are closest to the edge are connected.</p>",
+    "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+  },
+  {
+    "id": 4170,
+    "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+    "name": "4th Down",
+    "season": 2,
+    "number": 6,
+    "type": "regular",
+    "airdate": "2020-10-03",
+    "airtime": "21:00",
+    "airstamp": "2020-10-03T01:00:00+00:00",
+    "runtime": 60,
+    "image": {
+      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22648.jpg",
+      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22648.jpg"
+    },
+    "summary": "<p>- In the 4th column the 1 slides down.</p>",
+    "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+  },
+  {
+    "id": 4171,
+    "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+    "name": "Top Right",
+    "season": 2,
+    "number": 7,
+    "type": "regular",
+    "airdate": "2020-10-03",
+    "airtime": "21:00",
+    "airstamp": "2020-10-03T01:00:00+00:00",
+    "runtime": 60,
+    "image": {
+      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22649.jpg",
+      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22649.jpg"
+    },
+    "summary": "<p>- Since the player is pressing down, a number is randomly added to the top row. In this case a 1 at the top right.</p>",
+    "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+  }
+]
