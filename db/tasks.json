@@ -2,7 +2,7 @@
   {
     "id": 4154,
     "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
-    "name": "Task A",
+    "name": "Task A563492ad6f91700001000001f8fe1dd60fc249ab89f51395bb8fb26e ",
     "milestone": 0,
     "number": 1,
     "type": "regular",
@@ -11,8 +11,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/68/171372.jpg",
-      "original": "http://static.tvmaze.com/uploads/images/original_untouched/68/171372.jpg"
+      "medium": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taska.jpg",
+      "original": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taska.jpg"
     },
     "summary": "<p>A : Develop a game with the techniques of your choice. The game should reflect the following rules:.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -29,8 +29,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22633.jpg",
-      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22633.jpg"
+      "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
+      "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
     "summary": "<p>[✔]  The playing field consists of 4 x 4 fields.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -47,8 +47,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22634.jpg",
-      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22634.jpg"
+      "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
+      "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
     "summary": "<p>- Each field is initialized randomly with the value EMPTY, 1 or 2.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -65,8 +65,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22635.jpg",
-      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22635.jpg"
+      "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
+      "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
     "summary": "<p>- The player can move the playing field with the cursor keys Left, Right, Up, Down.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -83,8 +83,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22636.jpg",
-      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22636.jpg"
+      "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
+      "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
     "summary": "<p>- Hereby each field moves one field in the corresponding direction.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -101,8 +101,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22637.jpg",
-      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22637.jpg"
+      "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
+      "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
     "summary": "<p>- A field cannot be moved beyond the edge of the playing field.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -119,8 +119,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22638.jpg",
-      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22638.jpg"
+      "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
+      "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
     "summary": "<p>- A field cannot move into its direction, if the field in the corresponding direction is already occupied and does not have the same value.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -137,8 +137,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22639.jpg",
-      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22639.jpg"
+      "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
+      "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
     "summary": "<p>- A field can be moved to another field if both values of the fields are identical.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -155,8 +155,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22640.jpg",
-      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22640.jpg"
+      "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
+      "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
     "summary": "<p>- If this happens, one field is removed and the value of the other field is doubled.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -173,8 +173,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22641.jpg",
-      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22641.jpg"
+      "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
+      "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
     "summary": "<p>- After each move, a 1 or 2 is randomly added at the opposite edge of the move direction, on an empty field.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -191,8 +191,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22642.jpg",
-      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22642.jpg"
+      "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
+      "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
     "summary": "<p>- The game is over when there are no more valid moves.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -209,8 +209,8 @@
     "addedstamp": "2020-11-03T01:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22643.jpg",
-      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22643.jpg"
+      "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
+      "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
     "summary": "<p>B: Think errorsample how you can calculate a total score for the current game state.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -227,8 +227,8 @@
     "addedstamp": "2020-11-03T01:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22644.jpg",
-      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22644.jpg"
+      "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
+      "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
     "summary": "<p>- The player starts with the left game state and presses the Down button.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -245,8 +245,8 @@
     "addedstamp": "2020-11-03T01:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22645.jpg",
-      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22645.jpg"
+      "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
+      "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
     "summary": "<p>- The 1st column does not move because each field is blocked.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -263,8 +263,8 @@
     "addedstamp": "2020-11-03T01:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22646.jpg",
-      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22646.jpg"
+      "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
+      "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
     "summary": "<p>- In the 2. column the 2s connect to 4. The 1 slips into the free field.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -281,8 +281,8 @@
     "addedstamp": "2020-11-03T01:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22647.jpg",
-      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22647.jpg"
+      "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
+      "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
     "summary": "<p>- In the 3rd column the 1's that are closest to the edge are connected.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -299,8 +299,8 @@
     "addedstamp": "2020-11-03T01:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22648.jpg",
-      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22648.jpg"
+      "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
+      "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
     "summary": "<p>- In the 4th column the 1 slides down.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -317,8 +317,8 @@
     "addedstamp": "2020-11-03T01:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22649.jpg",
-      "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22649.jpg"
+      "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
+      "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
     "summary": "<p>- Since the player is pressing down, a number is randomly added to the top row. In this case a 1 at the top right.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
