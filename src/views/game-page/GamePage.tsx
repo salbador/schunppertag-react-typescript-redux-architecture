@@ -5,6 +5,8 @@ import { useSelector } from 'react-redux';
 import IStore from '../../models/IStore';
 import * as TilesAction from '../../stores/tiles/TilesAction';
 import Actors from './components/actors/Actors';
+// import Actors from './components/actors/Game';
+// Game fieldSize={4} />,
 import { Divider, Icon, Header } from 'semantic-ui-react';
 import LoadingIndicator from '../components/loading-indicator/LoadingIndicator';
 import { selectRequesting } from '../../selectors/requesting/RequestingSelector';
@@ -19,7 +21,7 @@ const HomePage: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) => {
       <LoadingIndicator isActive={isRequesting}>
         <Divider horizontal={true}>
           <Header as="h4">
-            <Icon name="users" /> Board
+            <Icon name="users" /> Scores
           </Header>
         </Divider>
         <Actors />
