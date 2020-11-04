@@ -209,10 +209,10 @@
     "addedstamp": "2020-11-03T01:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
-      "original": "https://source.unsplash.com/590x375/?cat,kiwi"
+      "medium": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taskb.jpg",
+      "original": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taskb.jpg"
     },
-    "summary": "<p>B: Think errorsample how you can calculate a total score for the current game state.</p>",
+    "summary": "<p>B: Think about how you can calculate a total score for the current game state.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
   },
   {
