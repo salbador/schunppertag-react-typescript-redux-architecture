@@ -212,7 +212,7 @@
       "medium": "http://static.tvmaze.com/uploads/images/medium_landscape/9/22643.jpg",
       "original": "http://static.tvmaze.com/uploads/images/original_untouched/9/22643.jpg"
     },
-    "summary": "<p>B: Think about how you can calculate a total score for the current game state.</p>",
+    "summary": "<p>B: Think errorsample how you can calculate a total score for the current game state.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
   },
   {

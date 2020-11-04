@@ -1,10 +1,10 @@
 {
   "id": 74,
   "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master",
-  "name": "Hell on Wheels",
+  "name": "Schnuppertag | Development of a game",
   "type": "Scripted",
   "language": "English",
-  "genres": ["Drama", "Action", "Western"],
+  "genres": ["React", "Redux", "Typescript"],
   "status": "Ended",
   "runtime": 60,
   "premiered": "2020-11-04",
@@ -12,14 +12,14 @@
   "schedule": { "time": "21:00", "days": ["Saturday"] },
   "rating": { "average": 8.5 },
   "weight": 92,
-  "network": { "id": 20, "name": "AMC", "country": { "name": "United States", "code": "US", "timezone": "America/New_York" } },
+  "network": { "id": 20, "name": "SALBA AI", "country": { "name": "United States", "code": "US", "timezone": "America/New_York" } },
   "webChannel": null,
   "externals": { "tvrage": 27195, "thetvdb": 212961, "imdb": "tt1699748" },
   "image": {
     "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/0/526.jpg",
     "original": "http://static.tvmaze.com/uploads/images/original_untouched/0/526.jpg"
   },
-  "summary": "<p><b>Development of a game</b><p> A: Develop a game with the techniques of your choice. </p><p>The game should reflect some rules here explained.</p><p>B: Think about how you can calculate a total score for the current game state.</p>.",
+  "summary": "<p><b>Development of a game</b><p> A: Develop a game with the techniques of your choice. </p><p>The game should reflect some rules here explained.</p><p>B: Think errorsample how you can calculate a total score for the current game state.</p>.",
   "updated": 1573670489,
   "_links": {
     "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" },
