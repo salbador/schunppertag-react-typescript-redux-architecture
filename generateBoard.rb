@@ -20,6 +20,7 @@ highscores = []
 21.times do | i |
     r = rand 100
     id = (10709 + i).to_s
+    score = (3000 - (i * i + (i * i))).to_s 
     id2 = (11320 + i).to_s
     name = Faker::Name.name
     url = name.downcase.gsub(' ', '-')
@@ -37,6 +38,7 @@ highscores = []
           "name": "' +  name  + '",
           "country": { "name": "' +  address.country  + '", "code": "' +  address.country_code  + '", "timezone": "' +  address.time_zone  + '" },
           "deathday": null,
+          "score": ' +  score  + ',
           "gender": "' +  Faker::Gender.binary_type  + '",
           "image": {
             "medium": "' +  img1  + '",
