@@ -13,7 +13,7 @@ import { selectRequesting } from '../../selectors/requesting/RequestingSelector'
 
 import { Provider } from 'react-redux';
 import { animationDuration, gridGap } from '../../constants/GameConfig';
-import UpperBody from './components/UpperBody';
+import BoardHeader from './components/BoardHeader';
 import Board from './components/Board';
 
 import createStore from './components/store';
@@ -40,14 +40,14 @@ const GamePage: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) => {
               }
             ></div>
             <div className="page">
-              <UpperBody />
+              <BoardHeader />
               <Board />
             </div>
           </Provider>
         </React.StrictMode>
         <Divider horizontal={true}>
           <Header as="h4">
-            <Icon name="users" /> Scores
+            <Icon name="users" /> Highscores
           </Header>
         </Divider>
         <Highscores />
