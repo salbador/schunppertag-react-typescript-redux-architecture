@@ -10,6 +10,7 @@ const Overlay: React.FC = () => {
 
   const defeat = useSelector((state: StateType) => state.defeat);
   const victory = useSelector((state: StateType) => state.victory);
+  const encouragement = useSelector((state: StateType) => state.encouragement);
 
   if (victory) {
     return (
@@ -17,6 +18,15 @@ const Overlay: React.FC = () => {
         <h1>You win!</h1>
         <div className="overlay-buttons">
           <button onClick={newGame}>Try again</button>
+        </div>
+      </div>
+    );
+  }
+  if (encouragement) {
+    return (
+      <div className="overlay overlay-encouragement">
+        <div className="header-scores-score-encouragement" key={'somekey'}>
+          <h1>Good Job!</h1>
         </div>
       </div>
     );

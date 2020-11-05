@@ -22,7 +22,7 @@ const BoardHeader: React.FC = () => {
             <div>{score}</div>
             {!!scoreIncrease && (
               <div className="header-scores-score-increase" key={moveId}>
-                asdfa+{scoreIncrease}
+                +{scoreIncrease}
               </div>
             )}
           </div>

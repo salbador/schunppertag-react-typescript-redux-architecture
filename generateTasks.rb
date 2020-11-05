@@ -1,19 +1,7 @@
 tasks = []
 # [✅] 
-def generateNick(nicknames, r)
-    nickname = ((r > 20) ? 
-    ((r > 40) ? 
-        ((r > 60) ? 
-            ((r > 80) ? Faker::FunnyName.two_word_name 
-                : Faker::JapaneseMedia::DragonBall.character) 
-            : Faker::TvShows::Buffy.character)  
-        : Faker::Movies::StarWars.character) 
-    : Faker::GreekPhilosophers.name)
-    if nicknames.include? nickname
-        nickname = generateNick(nicknames, r)
-    end 
-    nickname
-end  
+
+
 nicknames = [] 
 baseUrl = 'https://github.com/salbador/schunppertag-react-typescript-redux-architecture'
 highscores = []

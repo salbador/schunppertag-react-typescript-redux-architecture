@@ -6,12 +6,13 @@ import { initializeBoard, BoardType, updateBoard, movePossible } from '../utils/
 import { Direction } from '../types/Direction';
 import { getStoredData, setStoredData } from '../utils/localStorage';
 import { Animation } from '../types/Animations';
-import { defaultBoardSize, victoryTileValue } from '../../../../constants/GameConfig';
+import { defaultBoardSize, victoryTileValue, victoryEncouragements } from '../../../../constants/GameConfig';
 
 export interface StateType {
   boardSize: number;
   board: BoardType;
   victory: boolean;
+  encouragement: boolean;
   defeat: boolean;
   score: number;
   scoreIncrease?: number;
@@ -30,6 +31,7 @@ function initializeState(): StateType {
     board: storedData.board || update.board,
     defeat: storedData.defeat || false,
     victory: false,
+    encouragement: false,
     score: storedData.score || 0,
     highscore: storedData.highscore || 0,
     moveId: new Date().getTime().toString(),
@@ -80,6 +82,16 @@ function applicationState(state = initialState, action: ActionModel) {
   }
 
   newState.defeat = !movePossible(newState.board);
+  newState.encouragement = false;
+  victoryEncouragements.map(function(i) {
+    if (
+      !!newState.board.find(function(v) {
+        return v === i;
+      }) === true
+    ) {
+      newState.encouragement = true;
+    }
+  });
   newState.victory = !!newState.board.find((value) => value === victoryTileValue);
   setStoredData(newState);
 
