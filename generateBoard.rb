@@ -15,7 +15,7 @@ def generateNick(nicknames, r)
     nickname
 end  
 nicknames = [] 
-baseUrl = 'https://github.com/salbador/schunppertag-react-typescript-redux-architecture'
+baseUrl = 'https://github.com/salbador/schnuppertag-react-typescript-redux-architecture'
 highscores = []
 21.times do | i |
     r = rand 100

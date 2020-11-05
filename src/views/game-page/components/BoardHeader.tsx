@@ -15,7 +15,7 @@ const BoardHeader: React.FC = () => {
   return (
     <div className="header">
       <div className="header-row">
-        <h1>Schunppertag React Typescript Redux</h1>
+        <h1>Schnuppertag React Typescript Redux</h1>
         <div className="header-scores">
           <div className="header-scores-score">
             <div>Score</div>

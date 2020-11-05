@@ -34,6 +34,7 @@ export function getStoredData(): StorageModel {
         model.board = data.board;
         model.boardSize = data.boardSize;
         model.score = data.score;
+        model.lastValue = data.lastValue;
         model.defeat = data.defeat;
       } else {
         throw new Error('Invalid stored data.');
@@ -61,6 +62,7 @@ export function setStoredData(model: StorageModel) {
       highscore: model.highscore,
       score: model.score,
       board: model.board,
+      lastValue: model.lastValue,
       boardSize: model.boardSize,
       defeat: model.defeat,
     })

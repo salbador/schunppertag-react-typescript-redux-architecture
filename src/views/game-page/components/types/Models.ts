@@ -11,6 +11,7 @@ export interface StorageModel {
   score?: number;
   board?: BoardType;
   boardSize?: number;
+  lastValue?: number;
   defeat?: boolean;
 }
 

@@ -15,7 +15,7 @@ const MainNav: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) => {
         <Menu.Item as={MenuNavLink} to={RouteEnum.Game} name="Game" />
         <Menu.Item as={MenuNavLink} to={RouteEnum.Errorsample} name="ErrorSample" />
       </Menu>
-      <GithubCorner href="https://github.com/salbador/schunppertag-react-typescript-redux-architecture" />
+      <GithubCorner href="https://github.com/salbador/schnuppertag-react-typescript-redux-architecture" />
     </Segment>
   );
 };

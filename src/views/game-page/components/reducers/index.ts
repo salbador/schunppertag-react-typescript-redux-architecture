@@ -7,6 +7,7 @@ import { Direction } from '../types/Direction';
 import { getStoredData, setStoredData } from '../utils/localStorage';
 import { Animation } from '../types/Animations';
 import { defaultBoardSize, victoryTileValue, victoryEncouragements } from '../../../../constants/GameConfig';
+import value from 'environment';
 
 export interface StateType {
   boardSize: number;
@@ -18,6 +19,7 @@ export interface StateType {
   scoreIncrease?: number;
   highscore: number;
   moveId?: string;
+  lastValue?: number;
   animations?: Animation[];
 }
 
@@ -34,6 +36,7 @@ function initializeState(): StateType {
     encouragement: false,
     score: storedData.score || 0,
     highscore: storedData.highscore || 0,
+    lastValue: storedData.lastValue || 0,
     moveId: new Date().getTime().toString(),
   };
 }
@@ -89,10 +92,14 @@ function applicationState(state = initialState, action: ActionModel) {
         return v === i;
       }) === true
     ) {
+      newState.lastValue = i;
       newState.encouragement = true;
     }
   });
-  newState.victory = !!newState.board.find((value) => value === victoryTileValue);
+  newState.victory = !!newState.board.find((value) => {
+    newState.lastValue = value;
+    return value === victoryTileValue;
+  });
   setStoredData(newState);
 
   return newState;

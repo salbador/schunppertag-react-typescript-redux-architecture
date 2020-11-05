@@ -3,7 +3,7 @@ tasks = []
 
 
 nicknames = [] 
-baseUrl = 'https://github.com/salbador/schunppertag-react-typescript-redux-architecture'
+baseUrl = 'https://github.com/salbador/schnuppertag-react-typescript-redux-architecture'
 highscores = []
 21.times do | i |
     r = rand 100
@@ -21,7 +21,7 @@ highscores = []
     nicknames << nickname
     highscores << '{
         "id": 4154,
-        "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
+        "url": "https://raw.githubusercontent.com/salbador/schnuppertag-react-typescript-redux-architecture/master/",
         "name": "Task A",
         "milestone": 0,
         "number": 1,
@@ -31,11 +31,11 @@ highscores = []
         "addedstamp": "2020-11-03T03:00:00+00:00",
         "runtime": 60,
         "image": {
-          "medium": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taska.jpg",
-          "original": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taska.jpg"
+          "medium": "https://raw.githubusercontent.com/salbador/schnuppertag-react-typescript-redux-architecture/master/assets/images/taska.jpg",
+          "original": "https://raw.githubusercontent.com/salbador/schnuppertag-react-typescript-redux-architecture/master/assets/images/taska.jpg"
         },
         "summary": "<p>A : Develop a game with the techniques of your choice. The game should reflect the following rules:.</p>",
-        "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
+        "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schnuppertag-react-typescript-redux-architecture" } }
       },'
        
 end 

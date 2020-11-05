@@ -9,7 +9,7 @@
 export default function baseEnv(baseApi: string) {
   return {
     route: {
-      baseRoute: '/schunppertag-react-typescript-redux-architecture', // Fixes issue with Github Pages
+      baseRoute: '/schnuppertag-react-typescript-redux-architecture', // Fixes issue with Github Pages
     },
     api: {
       board: `${baseApi}/db/board.json`,

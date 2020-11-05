@@ -11,20 +11,20 @@ const BoardHeader: React.FC = () => {
   const scoreIncrease = useSelector((state: StateType) => state.scoreIncrease);
   const moveId = useSelector((state: StateType) => state.moveId);
   const highscore = useSelector((state: StateType) => state.highscore);
+  //   {!!scoreIncrease && (
+  //    <div className="header-scores-score-increase" key={moveId}>
+  //      +{scoreIncrease}
+  //    </div>
+  //  )}
 
   return (
     <div className="header">
       <div className="header-row">
-        <h1>Schunppertag React Typescript Redux</h1>
+        <h1>Schnuppertag React Typescript Redux</h1>
         <div className="header-scores">
           <div className="header-scores-score">
             <div>Score</div>
             <div>{score}</div>
-            {!!scoreIncrease && (
-              <div className="header-scores-score-increase" key={moveId}>
-                ?"§?"§$?T+{scoreIncrease}
-              </div>
-            )}
           </div>
           <div className="header-scores-score">
             <div>Highscore</div>
@@ -37,6 +37,13 @@ const BoardHeader: React.FC = () => {
           <button onClick={newGame}>New game</button>
         </div>
       </div>
+      {!!scoreIncrease && (
+        <div className="overlay overlay-encouragement">
+          <div className="header-scores-score-encouragement" key={'scoreIncrease'}>
+            <h1> +{scoreIncrease}</h1>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
