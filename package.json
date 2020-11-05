@@ -1,8 +1,8 @@
 {
-  "name": "schnuppertag-react-typescript-redux-architecture",
+  "name": "schunppertag-react-typescript-redux-architecture",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/salbador/schnuppertag-react-typescript-redux-architecture",
+  "homepage": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture",
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged",

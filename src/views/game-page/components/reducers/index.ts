@@ -7,7 +7,7 @@ import { Direction } from '../types/Direction';
 import { getStoredData, setStoredData } from '../utils/localStorage';
 import { Animation } from '../types/Animations';
 import { defaultBoardSize, victoryTileValue, victoryEncouragements } from '../../../../constants/GameConfig';
-import value from 'environment';
+// import value from 'environment';
 
 export interface StateType {
   boardSize: number;
@@ -94,6 +94,7 @@ function applicationState(state = initialState, action: ActionModel) {
     ) {
       newState.lastValue = i;
       newState.encouragement = true;
+      return true;
     }
   });
   newState.victory = !!newState.board.find((value) => {

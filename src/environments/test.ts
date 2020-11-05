@@ -1,6 +1,6 @@
 import environment, { Environment } from './base';
 
-const baseApi = 'https://raw.githubusercontent.com/salbador/schnuppertag-react-typescript-redux-architecture/master';
+const baseApi = 'https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master';
 const env = environment(baseApi);
 
 const testEnv: Environment = {
