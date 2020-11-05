@@ -1,11 +1,11 @@
 require 'faker'
 
   
-r = rand 100
 baseUrl = 'https://github.com/salbador/schunppertag-react-typescript-redux-architecture'
 
 highscores = []
 21.times do | i |
+    r = rand 100
     id = (10709 + i).to_s
     id2 = (11320 + i).to_s
     name = Faker::Name.name
@@ -15,7 +15,14 @@ highscores = []
     img1 = Faker::LoremFlickr.image(size: "210x295", search_terms: [ address.country, 'face', 'human', gender])
     img2 = Faker::LoremFlickr.image(size: "690x1035", search_terms: [ address.country, 'face', 'human', gender])
     img3 = Faker::Fillmurray.image(grayscale: false, width: 210, height: 295)
-    nickname = ((r > 30) ? ((r > 60) ? Faker::FunnyName.two_word_name : Faker::GreekPhilosophers.name) : Faker::GreekPhilosophers.name)
+    nickname = ((r > 20) ? 
+                    ((r > 40) ? 
+                        ((r > 60) ? 
+                            ((r > 80) ? Faker::FunnyName.two_word_name 
+                            : Faker::JapaneseMedia::DragonBall.character) 
+                        : Faker::TvShows::Buffy.character)  
+                    : Faker::Movies::StarWars.character) 
+                : Faker::GreekPhilosophers.name)
     highscores << '{
         "person": {
           "id": ' +  id  + ',
