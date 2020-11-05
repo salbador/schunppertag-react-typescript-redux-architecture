@@ -9,22 +9,22 @@ import { Dispatch } from 'redux';
 
 interface IProps {}
 
-const Actors: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) => {
+const Highscores: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) => {
   const dispatch: Dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(TilesAction.requestBoard());
   }, [dispatch]);
 
-  const actors: BoardModel[] = useSelector((state: IStore) => state.tiles.actors);
+  const highscores: BoardModel[] = useSelector((state: IStore) => state.tiles.highscores);
 
   return (
     <Card.Group centered={true}>
-      {actors.map((model: BoardModel) => (
+      {highscores.map((model: BoardModel) => (
         <ActorCard key={model.person.name} cardData={model} />
       ))}
     </Card.Group>
   );
 };
 
-export default Actors;
+export default Highscores;

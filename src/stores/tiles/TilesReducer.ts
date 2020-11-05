@@ -11,7 +11,7 @@ export const initialState: ITilesState = {
   currentTileId: '74',
   tile: null,
   tasks: [],
-  actors: [],
+  highscores: [],
 };
 
 const tilesReducer: Reducer = baseReducer(initialState, {
@@ -32,7 +32,7 @@ const tilesReducer: Reducer = baseReducer(initialState, {
   [TilesAction.REQUEST_BOARD_FINISHED](state: ITilesState, action: IAction<BoardModel[]>): ITilesState {
     return {
       ...state,
-      actors: action.payload!,
+      highscores: action.payload!,
     };
   },
 });

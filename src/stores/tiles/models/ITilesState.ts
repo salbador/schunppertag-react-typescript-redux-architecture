@@ -6,5 +6,5 @@ export default interface ITilesState {
   readonly currentTileId: string;
   readonly tile: TileModel | null;
   readonly tasks: TaskModel[];
-  readonly actors: BoardModel[];
+  readonly highscores: BoardModel[];
 }
