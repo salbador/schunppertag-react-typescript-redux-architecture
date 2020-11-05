@@ -11,6 +11,11 @@ highscores = []
     name = Faker::Name.name
     url = name.downcase.gsub(' ', '-')
     address = Faker::Address
+    gender = Faker::Gender.binary_type == 'Female' ? 'woman' : 'man'
+    img1 = Faker::LoremFlickr.image(size: "210x295", search_terms: [ address.country, 'face', 'human', gender])
+    img2 = Faker::LoremFlickr.image(size: "690x1035", search_terms: [ address.country, 'face', 'human', gender])
+    img3 = Faker::Fillmurray.image(grayscale: false, width: 210, height: 295)
+    nickname = ((r > 30) ? ((r > 60) ? Faker::FunnyName.two_word_name : Faker::GreekPhilosophers.name) : Faker::GreekPhilosophers.name)
     highscores << '{
         "person": {
           "id": ' +  id  + ',
@@ -20,18 +25,18 @@ highscores = []
           "deathday": null,
           "gender": "' +  Faker::Gender.binary_type  + '",
           "image": {
-            "medium": "' +  Faker::Fillmurray.image(grayscale: false, width: 210, height: 295)  + '",
-            "original": "' +  Faker::Fillmurray.image(grayscale: false, width: 690, height: 1035)  + '"
+            "medium": "' +  img1  + '",
+            "original": "' +  img2  + '"
           },
           "_links": { "self": { "href": "' +  baseUrl  + '/' +  id  + '" } }
         },
         "character": {
           "id": ' +  id2  + ',
           "url": "' +  baseUrl  + '/' +  id2  + '", 
-          "name": "' +  ((r > 30) ? ((r > 60) ? Faker::FunnyName.two_word_name : Faker::GreekPhilosophers.name) : Faker::GreekPhilosophers.name)  + '",
+          "name": "' +  nickname  + '",
           "image": {
-            "medium": "' +  Faker::Fillmurray.image(grayscale: false, width: 210, height: 295)  + '",
-            "original": "' +  Faker::Fillmurray.image(grayscale: false, width: 690, height: 1035)  + '"
+            "medium": "' +  img1  + '",
+            "original": "' +  img2  + '"
           },
           "_links": { "self": { "href": "' +  baseUrl  + '/' +  id2  + '" } }
         },
