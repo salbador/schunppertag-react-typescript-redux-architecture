@@ -32,7 +32,7 @@
       "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
       "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
-    "summary": "<p>[✔]  The playing field consists of 4 x 4 fields.</p>",
+    "summary": "<p>[✅]  The playing field consists of 4 x 4 fields.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
   },
   {
@@ -50,7 +50,7 @@
       "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
       "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
-    "summary": "<p>- Each field is initialized randomly with the value EMPTY, 1 or 2.</p>",
+    "summary": "<p>[✅] Each field is initialized randomly with the value EMPTY, 1 or 2.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
   },
   {
@@ -68,7 +68,7 @@
       "medium": "https://source.unsplash.com/250x140/?cat,kiwi",
       "original": "https://source.unsplash.com/590x375/?cat,kiwi"
     },
-    "summary": "<p>- The player can move the playing field with the cursor keys Left, Right, Up, Down.</p>",
+    "summary": "<p>[✅] The player can move the playing field with the cursor keys Left, Right, Up, Down.</p>",
     "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
   },
   {

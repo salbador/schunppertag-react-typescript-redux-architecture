@@ -2,24 +2,24 @@
   {
     "person": {
       "id": 10709,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10709/anson-mount",
-      "name": "Joe Biden",
-      "country": { "name": "United States", "code": "US", "timezone": "America/New_York" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10709/katrina-monahan",
+      "name": "Katrina Monahan",
+      "country": { "name": "France", "code": "SC", "timezone": "Asia/Tokyo" },
       "deathday": null,
-      "gender": "Male",
+      "gender": "Female",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10709" } }
     },
     "character": {
       "id": 11320,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11320",
-      "name": "Lucky Skywalker",
+      "name": "Archimedes",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11320" } }
     },
@@ -29,24 +29,24 @@
   {
     "person": {
       "id": 10710,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10710/colm-meaney",
-      "name": "Donald Trump",
-      "country": { "name": "Ireland", "code": "IE", "timezone": "Europe/Dublin" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10710/bruno-huels",
+      "name": "Bruno Huels",
+      "country": { "name": "Italy", "code": "BT", "timezone": "Asia/Riyadh" },
       "deathday": null,
       "gender": "Male",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10710" } }
     },
     "character": {
       "id": 11321,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11321",
-      "name": "Dark Vader",
+      "name": "Zeno of Elea",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11321" } }
     },
@@ -55,25 +55,295 @@
   },
   {
     "person": {
-      "id": 10720,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10720/philip-burke",
-      "name": "Kalama Harris",
-      "country": null,
+      "id": 10711,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10711/lionel-rippin",
+      "name": "Lionel Rippin",
+      "country": { "name": "Saint Helena", "code": "VG", "timezone": "Asia/Kuala_Lumpur" },
+      "deathday": null,
+      "gender": "Male",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10711" } }
+    },
+    "character": {
+      "id": 11322,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11322",
+      "name": "Archimedes",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11322" } }
+    },
+    "self": false,
+    "voice": false
+  },
+  {
+    "person": {
+      "id": 10712,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10712/brock-senger",
+      "name": "Brock Senger",
+      "country": { "name": "Burundi", "code": "NO", "timezone": "Africa/Algiers" },
       "deathday": null,
       "gender": "Female",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10712" } }
+    },
+    "character": {
+      "id": 11323,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11323",
+      "name": "Thucydides",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11323" } }
+    },
+    "self": false,
+    "voice": false
+  },
+  {
+    "person": {
+      "id": 10713,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10713/luther-boehm",
+      "name": "Luther Boehm",
+      "country": { "name": "Austria", "code": "KI", "timezone": "America/Chicago" },
+      "deathday": null,
+      "gender": "Female",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10713" } }
+    },
+    "character": {
+      "id": 11324,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11324",
+      "name": "Plato",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11324" } }
+    },
+    "self": false,
+    "voice": false
+  },
+  {
+    "person": {
+      "id": 10714,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10714/kara-labadie-do",
+      "name": "Kara Labadie DO",
+      "country": { "name": "Zimbabwe", "code": "MR", "timezone": "Etc/UTC" },
+      "deathday": null,
+      "gender": "Female",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10714" } }
+    },
+    "character": {
+      "id": 11325,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11325",
+      "name": "Plato",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11325" } }
+    },
+    "self": false,
+    "voice": false
+  },
+  {
+    "person": {
+      "id": 10715,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10715/cherri-kertzmann",
+      "name": "Cherri Kertzmann",
+      "country": { "name": "Micronesia", "code": "LY", "timezone": "Europe/Minsk" },
+      "deathday": null,
+      "gender": "Male",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10715" } }
+    },
+    "character": {
+      "id": 11326,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11326",
+      "name": "Pythagoras",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11326" } }
+    },
+    "self": false,
+    "voice": false
+  },
+  {
+    "person": {
+      "id": 10716,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10716/gov.-sammy-zulauf",
+      "name": "Gov. Sammy Zulauf",
+      "country": { "name": "Saint Vincent and the Grenadines", "code": "ZA", "timezone": "Asia/Taipei" },
+      "deathday": null,
+      "gender": "Male",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10716" } }
+    },
+    "character": {
+      "id": 11327,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11327",
+      "name": "Arcesilaus",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11327" } }
+    },
+    "self": false,
+    "voice": false
+  },
+  {
+    "person": {
+      "id": 10717,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10717/miss-dannie-padberg",
+      "name": "Miss Dannie Padberg",
+      "country": { "name": "Kiribati", "code": "LY", "timezone": "Europe/Athens" },
+      "deathday": null,
+      "gender": "Male",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10717" } }
+    },
+    "character": {
+      "id": 11328,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11328",
+      "name": "Pythagoras",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11328" } }
+    },
+    "self": false,
+    "voice": false
+  },
+  {
+    "person": {
+      "id": 10718,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10718/lela-zieme",
+      "name": "Lela Zieme",
+      "country": { "name": "Switzerland", "code": "BS", "timezone": "Pacific/Tongatapu" },
+      "deathday": null,
+      "gender": "Male",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10718" } }
+    },
+    "character": {
+      "id": 11329,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11329",
+      "name": "Diogenes",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11329" } }
+    },
+    "self": false,
+    "voice": false
+  },
+  {
+    "person": {
+      "id": 10719,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10719/cristine-runte",
+      "name": "Cristine Runte",
+      "country": { "name": "Kazakhstan", "code": "WS", "timezone": "Australia/Adelaide" },
+      "deathday": null,
+      "gender": "Female",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10719" } }
+    },
+    "character": {
+      "id": 11330,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11330",
+      "name": "Plutarch",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11330" } }
+    },
+    "self": false,
+    "voice": false
+  },
+  {
+    "person": {
+      "id": 10720,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10720/sen.-janine-hessel",
+      "name": "Sen. Janine Hessel",
+      "country": { "name": "Cote d'Ivoire", "code": "IQ", "timezone": "Asia/Jakarta" },
+      "deathday": null,
+      "gender": "Female",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10720" } }
     },
     "character": {
+      "id": 11331,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11331",
+      "name": "Diogenes",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11331" } }
+    },
+    "self": false,
+    "voice": false
+  },
+  {
+    "person": {
+      "id": 10721,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10721/lyndon-wiza",
+      "name": "Lyndon Wiza",
+      "country": { "name": "Mexico", "code": "BY", "timezone": "Asia/Hong_Kong" },
+      "deathday": null,
+      "gender": "Female",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10721" } }
+    },
+    "character": {
       "id": 11332,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11332",
-      "name": "Princess Leia",
+      "name": "Arcesilaus",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11332" } }
     },
@@ -83,24 +353,51 @@
   {
     "person": {
       "id": 10722,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10722/robin-mcleavy",
-      "name": "10722",
-      "country": { "name": "Australia", "code": "AU", "timezone": "Australia/Sydney" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10722/alberto-wehner",
+      "name": "Alberto Wehner",
+      "country": { "name": "Saint Lucia", "code": "QA", "timezone": "Europe/Moscow" },
       "deathday": null,
       "gender": "Female",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10722" } }
     },
     "character": {
+      "id": 11333,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11333",
+      "name": "Galen",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11333" } }
+    },
+    "self": false,
+    "voice": false
+  },
+  {
+    "person": {
+      "id": 10723,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10723/bryan-witting",
+      "name": "Bryan Witting",
+      "country": { "name": "Eritrea", "code": "BY", "timezone": "Pacific/Majuro" },
+      "deathday": null,
+      "gender": "Male",
+      "image": {
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
+      },
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10723" } }
+    },
+    "character": {
       "id": 11334,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11334",
-      "name": "11334",
+      "name": "Diogenes",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11334" } }
     },
@@ -109,81 +406,27 @@
   },
   {
     "person": {
-      "id": 10711,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10711/common",
-      "name": "10711",
-      "country": { "name": "United States", "code": "US", "timezone": "America/New_York" },
+      "id": 10724,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10724/norbert-yundt",
+      "name": "Norbert Yundt",
+      "country": { "name": "Monaco", "code": "LI", "timezone": "Europe/Skopje" },
       "deathday": null,
-      "gender": "Male",
+      "gender": "Female",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10711" } }
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10724" } }
     },
     "character": {
-      "id": 11322,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11322",
-      "name": "11322",
+      "id": 11335,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11335",
+      "name": "Solon",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11322" } }
-    },
-    "self": false,
-    "voice": false
-  },
-  {
-    "person": {
-      "id": 10718,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10718/ben-esler",
-      "name": "10718",
-      "country": { "name": "Australia", "code": "AU", "timezone": "Australia/Sydney" },
-      "deathday": null,
-      "gender": "Male",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10718" } }
-    },
-    "character": {
-      "id": 11330,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11330",
-      "name": "11330",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11330" } }
-    },
-    "self": false,
-    "voice": false
-  },
-  {
-    "person": {
-      "id": 3941,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/3941/christopher-heyerdahl",
-      "name": "3941",
-      "country": { "name": "Canada", "code": "CA", "timezone": "America/Halifax" },
-      "deathday": null,
-      "gender": "Male",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/3941" } }
-    },
-    "character": {
-      "id": 11369,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11369",
-      "name": "11369",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11369" } }
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11335" } }
     },
     "self": false,
     "voice": false
@@ -191,51 +434,51 @@
   {
     "person": {
       "id": 10725,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10725/dohn-norwood",
-      "name": "10725",
-      "country": { "name": "United States", "code": "US", "timezone": "America/New_York" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10725/armando-rowe",
+      "name": "Armando Rowe",
+      "country": { "name": "Montenegro", "code": "JP", "timezone": "Europe/Athens" },
       "deathday": null,
-      "gender": "Male",
+      "gender": "Female",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10725" } }
     },
     "character": {
-      "id": 11338,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11338",
-      "name": "11338",
+      "id": 11336,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11336",
+      "name": "Epicurus",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11338" } }
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11336" } }
     },
     "self": false,
     "voice": false
   },
   {
     "person": {
-      "id": 10724,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10724/kasha-kropinski",
-      "name": "10724",
-      "country": { "name": "South Africa", "code": "ZA", "timezone": "Africa/Johannesburg" },
+      "id": 10726,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10726/mei-hirthe",
+      "name": "Mei Hirthe",
+      "country": { "name": "Zimbabwe", "code": "BJ", "timezone": "Australia/Melbourne" },
       "deathday": null,
       "gender": "Female",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10724" } }
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10726" } }
     },
     "character": {
       "id": 11337,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11337",
-      "name": "11337",
+      "name": "Proclus",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11337" } }
     },
@@ -244,318 +487,81 @@
   },
   {
     "person": {
-      "id": 10713,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10713/dominique-mcelligott",
-      "name": "10713",
-      "country": { "name": "Ireland", "code": "IE", "timezone": "Europe/Dublin" },
+      "id": 10727,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10727/mrs.-arnita-hartmann",
+      "name": "Mrs. Arnita Hartmann",
+      "country": { "name": "Macedonia", "code": "LI", "timezone": "Australia/Hobart" },
       "deathday": null,
       "gender": "Female",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10713" } }
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10727" } }
     },
     "character": {
-      "id": 11324,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11324",
-      "name": "11324",
+      "id": 11338,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11338",
+      "name": "Galen",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11324" } }
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11338" } }
     },
     "self": false,
     "voice": false
   },
   {
     "person": {
-      "id": 10716,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10716/eddie-spears",
-      "name": "10716",
-      "country": null,
-      "deathday": null,
-      "gender": null,
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10716" } }
-    },
-    "character": {
-      "id": 11328,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11328",
-      "name": "11328",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11328" } }
-    },
-    "self": false,
-    "voice": false
-  },
-  {
-    "person": {
-      "id": 10714,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10714/tom-noonan",
-      "name": "10714",
-      "country": { "name": "United States", "code": "US", "timezone": "America/New_York" },
-      "deathday": null,
-      "gender": "Male",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10714" } }
-    },
-    "character": {
-      "id": 11326,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11326",
-      "name": "11326",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11326" } }
-    },
-    "self": false,
-    "voice": false
-  },
-  {
-    "person": {
-      "id": 10712,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10712/jennifer-ferrin",
-      "name": "10712",
-      "country": { "name": "United States", "code": "US", "timezone": "America/New_York" },
+      "id": 10728,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10728/mario-botsford",
+      "name": "Mario Botsford",
+      "country": { "name": "Marshall Islands", "code": "VI", "timezone": "Asia/Kolkata" },
       "deathday": null,
       "gender": "Female",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10712" } }
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10728" } }
     },
     "character": {
-      "id": 11323,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11323",
-      "name": "11323",
+      "id": 11339,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11339",
+      "name": "Anaxagoras",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11323" } }
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11339" } }
     },
     "self": false,
     "voice": false
   },
   {
     "person": {
-      "id": 1062,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/1062/tim-guinee",
-      "name": "1062",
-      "country": { "name": "United States", "code": "US", "timezone": "America/New_York" },
+      "id": 10729,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10729/gerry-kozey",
+      "name": "Gerry Kozey",
+      "country": { "name": "Papua New Guinea", "code": "PT", "timezone": "Atlantic/Cape_Verde" },
       "deathday": null,
       "gender": "Male",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/1062" } }
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10729" } }
     },
     "character": {
-      "id": 11584,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11584",
-      "name": "11584",
+      "id": 11340,
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11340",
+      "name": "Antisthenes",
       "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
+        "medium": "https://www.fillmurray.com/210/295",
+        "original": "https://www.fillmurray.com/690/1035"
       },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11584" } }
-    },
-    "self": false,
-    "voice": false
-  },
-  {
-    "person": {
-      "id": 354,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/354/chelah-horsdal",
-      "name": "354",
-      "country": { "name": "Canada", "code": "CA", "timezone": "America/Halifax" },
-      "deathday": null,
-      "gender": "Female",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/354" } }
-    },
-    "character": {
-      "id": 164094,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/16409",
-      "name": "164094",
-      "image": null,
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/164094" } }
-    },
-    "self": false,
-    "voice": false
-  },
-  {
-    "person": {
-      "id": 26168,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/26168/jake-weber",
-      "name": "26168",
-      "country": { "name": "United Kingdom", "code": "GB", "timezone": "Europe/London" },
-      "deathday": null,
-      "gender": "Male",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/26168" } }
-    },
-    "character": {
-      "id": 164093,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/16409",
-      "name": "164093",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/164093" } }
-    },
-    "self": false,
-    "voice": false
-  },
-  {
-    "person": {
-      "id": 4178,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/4178/mackenzie-porter",
-      "name": "4178",
-      "country": { "name": "Canada", "code": "CA", "timezone": "America/Halifax" },
-      "deathday": null,
-      "gender": "Female",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/4178" } }
-    },
-    "character": {
-      "id": 11696,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11696",
-      "name": "11696",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11696" } }
-    },
-    "self": false,
-    "voice": false
-  },
-  {
-    "person": {
-      "id": 17748,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/17748/reg-rogers",
-      "name": "17748",
-      "country": { "name": "United States", "code": "US", "timezone": "America/New_York" },
-      "deathday": null,
-      "gender": "Male",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/17748" } }
-    },
-    "character": {
-      "id": 164092,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/16409",
-      "name": "164092",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/164092" } }
-    },
-    "self": false,
-    "voice": false
-  },
-  {
-    "person": {
-      "id": 329,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/329/byron-mann",
-      "name": "329",
-      "country": { "name": "Hong Kong", "code": "HK", "timezone": "Asia/Hong_Kong" },
-      "deathday": null,
-      "gender": "Male",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/329" } }
-    },
-    "character": {
-      "id": 164095,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/16409",
-      "name": "164095",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/164095" } }
-    },
-    "self": false,
-    "voice": false
-  },
-  {
-    "person": {
-      "id": 129198,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/129198/angela-zhou",
-      "name": "129198",
-      "country": { "name": "China", "code": "CN", "timezone": "Asia/Shanghai" },
-      "deathday": null,
-      "gender": "Female",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/129198" } }
-    },
-    "character": {
-      "id": 299891,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/29989",
-      "name": "299891",
-      "image": null,
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/299891" } }
-    },
-    "self": false,
-    "voice": false
-  },
-  {
-    "person": {
-      "id": 3264,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/3264/tzi-ma",
-      "name": "3264",
-      "country": { "name": "Hong Kong", "code": "HK", "timezone": "Asia/Hong_Kong" },
-      "deathday": null,
-      "gender": "Male",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/3264" } }
-    },
-    "character": {
-      "id": 164091,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/16409",
-      "name": "164091",
-      "image": {
-        "medium": "https://source.unsplash.com/210x295/?coding,programming",
-        "original": "https://source.unsplash.com/690x1035/?coding,programming"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/164091" } }
+      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11340" } }
     },
     "self": false,
     "voice": false
