@@ -13,6 +13,7 @@ import ImageModel from '../ImageModel';
         "timezone": "America/New_York"
       },
       "birthday": "1973-02-25",
+      "score": 2550,
       "deathday": null,
       "gender": "Male",
       "image": {
@@ -28,6 +29,7 @@ import ImageModel from '../ImageModel';
  */
 export default class PersonModel extends BaseModel {
   public readonly id: number = 0;
+  public readonly score: number = 0;
   public readonly name: string = '';
   public readonly image: ImageModel = ImageModel as any;
 

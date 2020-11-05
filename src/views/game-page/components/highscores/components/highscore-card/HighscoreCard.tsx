@@ -6,7 +6,7 @@ interface IProps {
   readonly cardData: BoardModel;
 }
 
-const ActorCard: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) => {
+const HighscoreCard: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) => {
   const { cardData } = props;
   const image: string = cardData?.character?.image?.medium;
   const missingImage: string = 'https://react.semantic-ui.com/images/wireframe/image.png';
@@ -17,9 +17,10 @@ const ActorCard: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) => 
         <Image floated="right" size="mini" src={image || missingImage} />
         <Card.Header>{cardData.person.name}</Card.Header>
         <Card.Meta>as {cardData.character.name}</Card.Meta>
+        <Card.Header>with {cardData.person.score}</Card.Header>
       </Card.Content>
     </Card>
   );
 };
 
-export default ActorCard;
+export default HighscoreCard;

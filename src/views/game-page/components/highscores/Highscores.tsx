@@ -4,7 +4,7 @@ import IStore from '../../../../models/IStore';
 import { Card } from 'semantic-ui-react';
 import BoardModel from '../../../../stores/tiles/models/board/BoardModel';
 import * as TilesAction from '../../../../stores/tiles/TilesAction';
-import ActorCard from './components/actor-card/ActorCard';
+import HighscoreCard from './components/highscore-card/HighscoreCard';
 import { Dispatch } from 'redux';
 
 interface IProps {}
@@ -21,7 +21,7 @@ const Highscores: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) =>
   return (
     <Card.Group centered={true}>
       {highscores.map((model: BoardModel) => (
-        <ActorCard key={model.person.name} cardData={model} />
+        <HighscoreCard key={model.person.name} cardData={model} />
       ))}
     </Card.Group>
   );
