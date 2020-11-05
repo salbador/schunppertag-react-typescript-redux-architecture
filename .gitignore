@@ -24,5 +24,5 @@ yarn-error.log*
 
 #editors
 .idea
-202011041905_asdfasdf_asdfasdf.log
-202011041905_asdfasdf_asdfasdf.sh
+
+.sass-cache
