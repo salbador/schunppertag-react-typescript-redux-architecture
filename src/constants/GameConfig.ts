@@ -8,8 +8,8 @@ export const defaultBoardSize = 4;
 export const supportedBoardSizes = [3, 4, 5, 6];
 
 /** Tile value of the victorious tile. */
-export const victoryTileValue = 8;
-// export const victoryTileValue = [8,512,1024,4096];
+export const victoryTileValue = 4096;
+// export const victoryTileValue = [8,512,1024,2048,4096];
 
 /** Grid gap (used for animations). */
 export const gridGap = '1rem';
