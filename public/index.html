@@ -20,6 +20,228 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Schnuppertag React Typescript Redux Architecture</title>
+    <style>
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+html {
+  font-size: 16px; }
+
+html,
+body {
+  margin: 0;
+  background: #fffffe;
+  color: #c7c4f0; }
+
+h1 {
+  font-size: 4rem;
+  margin: 0; }
+
+button {
+  background: #6b0b79;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  transition: var(--animation-duration) ease-in-out all; }
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed; }
+  button:not(:disabled):hover {
+    opacity: 0.8; }
+
+.page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-size: 1.1rem; }
+
+.header {
+  padding: 2rem 0;
+  font-size: 1.1rem; }
+  .header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .header-row button {
+      margin-left: 5px; }
+  .header-buttons {
+    min-width: max-content; }
+  .header-scores {
+    display: flex; }
+    .header-scores-score {
+      position: relative;
+      background: #89608e;
+      padding: 1px 25px;
+      border-radius: 6px;
+      font-weight: bold;
+      text-align: center;
+      margin-left: 5px; }
+      .header-scores-score div:first-child {
+        color: #232051;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        margin-top: 5px; }
+      .header-scores-score div:nth-child(2) {
+        color: white;
+        margin-top: -5px;
+        font-size: 1.6rem; }
+      .header-scores-score-increase {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 1.6rem;
+        opacity: 0;
+        animation: score-increase 0.3s ease-in-out; }
+
+.info {
+  line-height: 1.65;
+  color: #c7c4f0;
+  font-weight: 500; }
+  .info a {
+    color: #c7c4f0;
+    font-weight: bold; }
+
+.size-picker {
+  display: flex;
+  margin: 0 -5px; }
+  .size-picker button {
+    flex: 1;
+    margin: 0 5px; }
+
+.board {
+  position: relative;
+  background: #89608e;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: repeat(var(--board-size), 1fr);
+  grid-gap: var(--grid-gap);
+  padding: var(--grid-gap);
+  user-select: none;
+  touch-action: none; }
+  .board-tile {
+    position: relative;
+    border-radius: 3px;
+    padding-bottom: 100%;
+    background: #01021a;
+    line-height: 0;
+    font-size: 1.6rem; }
+    .board-tile-value {
+      background: #081a37;
+      color: #f9f6f2;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      line-height: 0;
+      border-radius: 3px;
+      z-index: 9; }
+    .board-tile-new {
+      animation: tile-new var(--animation-duration) ease-in-out; }
+    .board-tile-merge {
+      animation: tile-merge var(--animation-duration) ease-in-out; }
+    .board-tile-2 {
+      background: #232051;
+      color: #c7c4f0;
+      font-size: 1.7em; }
+    .board-tile-4 {
+      background: #2f2457;
+      color: #c7c4f0;
+      font-size: 1.7em; }
+    .board-tile-8 {
+      background: #f2b179;
+      font-size: 1.7em; }
+    .board-tile-16 {
+      background: #f59563;
+      font-size: 1.7em; }
+    .board-tile-32 {
+      background: #f67c5f;
+      font-size: 1.7em; }
+    .board-tile-64 {
+      background: #f65e3b;
+      font-size: 1.7em; }
+    .board-tile-128 {
+      background: #edcf72;
+      font-size: 1.3em; }
+    .board-tile-256 {
+      background: #edcc61;
+      font-size: 1.3em; }
+    .board-tile-512 {
+      background: #edc850;
+      font-size: 1.3em; }
+    .board-tile-1024 {
+      background: #edc53f; }
+    .board-tile-Schunppertag_React_Typescript_Redux {
+      background: #edc22e; }
+  .board.board-5 .board-tile, .board.board-6 .board-tile {
+    font-size: 1.1rem; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(238, 228, 218, 0.73);
+  animation: reveal 0.4s ease-in-out; }
+  .overlay-defeat {
+    background: rgba(238, 228, 218, 0.73); }
+  .overlay-victory {
+    background: rgba(237, 194, 46, 0.5);
+    color: #f9f6f2; }
+  .overlay-buttons button {
+    margin: 0 5px; }
+  .overlay h1 {
+    margin-bottom: 0.5em; }
+
+@keyframes reveal {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes tile-new {
+  0% {
+    transform: scale(0.5); }
+  100% {
+    transform: scale(1); } }
+@keyframes tile-merge {
+  0% {
+    transform: scale(0.7); }
+  80% {
+    transform: scale(1.1); }
+  100% {
+    transform: scale(1); } }
+@keyframes score-increase {
+  0% {
+    opacity: 1;
+    transform: translateY(0); }
+  100% {
+    opacity: 0;
+    transform: translateY(-4rem); } }
+@media screen and (min-width: 610px) {
+  .board-tile {
+    font-size: 2rem; }
+  .board.board-5 .board-tile, .board.board-6 .board-tile {
+    font-size: 1.5rem; } }
+
+
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
