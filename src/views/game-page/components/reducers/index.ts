@@ -9,37 +9,14 @@ import { Animation } from '../types/Animations';
 import { defaultBoardSize, victoryTileValue } from '../../../../constants/GameConfig';
 
 export interface StateType {
-  /** Board size. Currently always 4. */
   boardSize: number;
-
-  /** Current board. */
   board: BoardType;
-
-  /** Previous board. */
-  previousBoard?: BoardType;
-
-  /** Was Schunppertag_React_Typescript_Redux tile found? */
   victory: boolean;
-
-  /** Is game over? */
   defeat: boolean;
-
-  /** Should the victory screen be hidden? */
-  victoryDismissed: boolean;
-
-  /** Current score. */
   score: number;
-
-  /** Score increase after last update. */
   scoreIncrease?: number;
-
-  /** Best score. */
-  best: number;
-
-  /** Used for certain animations. Mainly as a value of the "key" property. */
+  highscore: number;
   moveId?: string;
-
-  /** Animations after last update. */
   animations?: Animation[];
 }
 
@@ -53,9 +30,8 @@ function initializeState(): StateType {
     board: storedData.board || update.board,
     defeat: storedData.defeat || false,
     victory: false,
-    victoryDismissed: storedData.victoryDismissed || false,
     score: storedData.score || 0,
-    best: storedData.best || 0,
+    highscore: storedData.highscore || 0,
     moveId: new Date().getTime().toString(),
   };
 }
@@ -68,7 +44,7 @@ function applicationState(state = initialState, action: ActionModel) {
   const newState = { ...state };
 
   switch (action.type) {
-    case ActionType.RESET:
+    case ActionType.NEWGAME:
       {
         const size = action.value || newState.boardSize;
         const update = initializeBoard(size);
@@ -76,9 +52,7 @@ function applicationState(state = initialState, action: ActionModel) {
         newState.board = update.board;
         newState.score = 0;
         newState.animations = update.animations;
-        newState.previousBoard = undefined;
         newState.victory = false;
-        newState.victoryDismissed = false;
       }
       break;
     case ActionType.MOVE:
@@ -89,7 +63,6 @@ function applicationState(state = initialState, action: ActionModel) {
 
         const direction = action.value as Direction;
         const update = updateBoard(newState.board, direction);
-        newState.previousBoard = [...newState.board];
         newState.board = update.board;
         newState.score += update.scoreIncrease;
         newState.animations = update.animations;
@@ -97,27 +70,13 @@ function applicationState(state = initialState, action: ActionModel) {
         newState.moveId = new Date().getTime().toString();
       }
       break;
-    case ActionType.UNDO:
-      if (!newState.previousBoard) {
-        break;
-      }
 
-      newState.board = newState.previousBoard;
-      newState.previousBoard = undefined;
-
-      if (newState.scoreIncrease) {
-        newState.score -= newState.scoreIncrease;
-      }
-      break;
-    case ActionType.DISMISS:
-      newState.victoryDismissed = true;
-      break;
     default:
       return state;
   }
 
-  if (newState.score > newState.best) {
-    newState.best = newState.score;
+  if (newState.score > newState.highscore) {
+    newState.highscore = newState.score;
   }
 
   newState.defeat = !movePossible(newState.board);

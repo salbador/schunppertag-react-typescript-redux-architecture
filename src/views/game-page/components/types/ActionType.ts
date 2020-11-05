@@ -1,6 +1,4 @@
 export enum ActionType {
-  RESET = 'reset',
+  NEWGAME = 'newGame',
   MOVE = 'move',
-  UNDO = 'undo',
-  DISMISS = 'dismiss',
 }

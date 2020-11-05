@@ -15,8 +15,7 @@ import { Provider } from 'react-redux';
 import { animationDuration, gridGap } from '../../constants/GameConfig';
 import UpperBody from './components/UpperBody';
 import Board from './components/Board';
-import Info from './components/Info';
-import BoardSizePicker from './components/BoardSizePicker';
+
 import createStore from './components/store';
 
 const store = createStore();
@@ -43,8 +42,6 @@ const HomePage: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) => {
             <div className="page">
               <UpperBody />
               <Board />
-              <BoardSizePicker />
-              <Info />
             </div>
           </Provider>
         </React.StrictMode>

@@ -7,12 +7,11 @@ export interface ActionModel {
 }
 
 export interface StorageModel {
-  best?: number;
+  highscore?: number;
   score?: number;
   board?: BoardType;
   boardSize?: number;
   defeat?: boolean;
-  victoryDismissed?: boolean;
 }
 
 export interface Point {

@@ -17,9 +17,6 @@ const ActorCard: React.FC<IProps> = (props: React.PropsWithChildren<IProps>) => 
         <Image floated="right" size="mini" src={image || missingImage} />
         <Card.Header>{cardData.person.name}</Card.Header>
         <Card.Meta>as {cardData.character.name}</Card.Meta>
-        <Card.Description>
-          <strong>Birth date:</strong> {cardData.person.birthday}
-        </Card.Description>
       </Card.Content>
     </Card>
   );

@@ -12,20 +12,13 @@ export function getStoredData(): StorageModel {
   try {
     const data = JSON.parse(localStorage.getItem(ITEM_NAME) as string);
 
-    if (
-      data.hasOwnProperty('board') &&
-      data.hasOwnProperty('boardSize') &&
-      data.hasOwnProperty('score') &&
-      data.hasOwnProperty('defeat') &&
-      data.hasOwnProperty('victoryDismissed')
-    ) {
+    if (data.hasOwnProperty('board') && data.hasOwnProperty('boardSize') && data.hasOwnProperty('score') && data.hasOwnProperty('defeat')) {
       if (
         Array.isArray(data.board) &&
         typeof data.boardSize === 'number' &&
         data.board.length === data.boardSize ** 2 &&
         typeof data.score === 'number' &&
-        typeof data.defeat === 'boolean' &&
-        typeof data.victoryDismissed === 'boolean'
+        typeof data.defeat === 'boolean'
       ) {
         for (let value of data.board) {
           if (typeof value !== 'number') {
@@ -42,15 +35,14 @@ export function getStoredData(): StorageModel {
         model.boardSize = data.boardSize;
         model.score = data.score;
         model.defeat = data.defeat;
-        model.victoryDismissed = data.victoryDismissed;
       } else {
         throw new Error('Invalid stored data.');
       }
     }
 
-    if (data.hasOwnProperty('best')) {
-      if (typeof data.best === 'number') {
-        model.best = data.best;
+    if (data.hasOwnProperty('highscore')) {
+      if (typeof data.highscore === 'number') {
+        model.highscore = data.highscore;
       } else {
         throw new Error('Invalid stored data.');
       }
@@ -66,12 +58,11 @@ export function setStoredData(model: StorageModel) {
   localStorage.setItem(
     ITEM_NAME,
     JSON.stringify({
-      best: model.best,
+      highscore: model.highscore,
       score: model.score,
       board: model.board,
       boardSize: model.boardSize,
       defeat: model.defeat,
-      victoryDismissed: model.victoryDismissed,
     })
   );
 }

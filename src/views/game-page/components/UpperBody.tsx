@@ -1,18 +1,16 @@
 import React, { useCallback } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { resetAction, undoAction } from './actions';
+import { newGameAction } from './actions';
 import { StateType } from './reducers';
 
 const UpperBody: React.FC = () => {
   const dispatch = useDispatch();
-  const reset = useCallback(() => dispatch(resetAction()), [dispatch]);
-  const undo = useCallback(() => dispatch(undoAction()), [dispatch]);
+  const newGame = useCallback(() => dispatch(newGameAction()), [dispatch]);
 
   const score = useSelector((state: StateType) => state.score);
   const scoreIncrease = useSelector((state: StateType) => state.scoreIncrease);
   const moveId = useSelector((state: StateType) => state.moveId);
-  const best = useSelector((state: StateType) => state.best);
-  const previousBoard = useSelector((state: StateType) => state.previousBoard);
+  const highscore = useSelector((state: StateType) => state.highscore);
 
   return (
     <div className="header">
@@ -30,16 +28,13 @@ const UpperBody: React.FC = () => {
           </div>
           <div className="header-scores-score">
             <div>Highscore</div>
-            <div>{best}</div>
+            <div>{highscore}</div>
           </div>
         </div>
       </div>
       <div className="header-row">
         <div className="header-buttons">
-          <button onClick={undo} disabled={!previousBoard}>
-            Undo
-          </button>
-          <button onClick={reset}>New game</button>
+          <button onClick={newGame}>New game</button>
         </div>
       </div>
     </div>

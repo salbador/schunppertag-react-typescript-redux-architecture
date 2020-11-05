@@ -104,17 +104,6 @@ function rotateBoard(board: BoardType, direction: Direction, undo = false): Boar
   const boardSize = Math.sqrt(board.length);
   const newBoard = new Array(board.length);
 
-  if (undo) {
-    switch (direction) {
-      case Direction.LEFT:
-        direction = Direction.RIGHT;
-        break;
-      case Direction.RIGHT:
-        direction = Direction.LEFT;
-        break;
-    }
-  }
-
   for (let i = 0; i < board.length; i++) {
     const index = getRotatedIndex(i, boardSize, direction);
     newBoard[index] = board[i];
