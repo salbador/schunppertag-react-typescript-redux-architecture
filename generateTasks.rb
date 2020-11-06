@@ -51,7 +51,7 @@ baseValues.each do | name, descr |
           "medium": "' + imgsmall.to_s + '",
           "original": "' + imgbig.to_s + '"
         },
-        "summary": "<p>' + descr.to_s + '</p>",
+        "summary": "<p>' + checkmark + ' ' + descr.to_s + '</p>",
         "_links": { "self": { "href": "' + baseUrl +'" } }
       }'
        
