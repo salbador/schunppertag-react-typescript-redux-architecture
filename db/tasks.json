@@ -11,8 +11,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taska.jpg",
-      "original": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taska.jpg"
+      "medium": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taska.jpg",
+      "original": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taska.jpg"
     },
     "summary": "<p>A : Develop a game with the techniques of your choice. The game should reflect the following rules:.</p>",
     "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -209,8 +209,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taskb.jpg",
-      "original": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taskb.jpg"
+      "medium": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taskb.jpg",
+      "original": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taskb.jpg"
     },
     "summary": "<p>B: Think about how you can calculate a total score for the current game state.</p>",
     "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" } }

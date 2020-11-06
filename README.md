@@ -94,4 +94,18 @@ See the section About [deployment](https://facebook.github.io/create-react-app/d
 
 ## Testing
 
-#### `yarn run test`
+#### `yarn test`
+
+## Generators
+
+Dummy json Tasks from db/Tasks.text
+
+#### `yarn dummy:tasks`
+
+Dummy json Highscore board
+
+#### `yarn dummy:highscores`
+
+More React Redux Store, React Component, React Connected Component, Selector, Model, Interface, Enum
+
+#### `yarn generate`

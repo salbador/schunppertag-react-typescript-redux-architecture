@@ -18,8 +18,8 @@ end
 img1 = "https://source.unsplash.com/random/250x140"
 img2 = "https://source.unsplash.com/random/590x375"
 baseUrl = 'https://github.com/salbador/schunppertag-react-typescript-redux-architecture'
-imga = baseUrl + "/master/assets/images/taska.jpg"
-imgb = baseUrl + "/master/assets/images/taskb.jpg"
+imga = "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taska.jpg"
+imgb = "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taskb.jpg"
 tasks = []
 i = 0
 baseValues.each do | name, descr |
