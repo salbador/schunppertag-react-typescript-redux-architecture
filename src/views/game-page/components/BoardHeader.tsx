@@ -11,11 +11,6 @@ const BoardHeader: React.FC = () => {
   const scoreIncrease = useSelector((state: StateType) => state.scoreIncrease);
   const moveId = useSelector((state: StateType) => state.moveId);
   const highscore = useSelector((state: StateType) => state.highscore);
-  //   {!!scoreIncrease && (
-  //    <div className="header-scores-score-increase" key={moveId}>
-  //      +{scoreIncrease}
-  //    </div>
-  //  )}
 
   return (
     <div className="header">
@@ -39,7 +34,7 @@ const BoardHeader: React.FC = () => {
       </div>
       {!!scoreIncrease && (
         <div className="overlay overlay-encouragement">
-          <div className="header-scores-score-encouragement" key={'scoreIncrease'}>
+          <div className="header-scores-score-encouragement" key={moveId}>
             <h1> +{scoreIncrease}</h1>
           </div>
         </div>
