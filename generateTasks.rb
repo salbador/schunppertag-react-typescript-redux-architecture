@@ -22,17 +22,29 @@ imga = "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript
 imgb = "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taskb.jpg"
 tasks = []
 i = 0
+
+online = true
+checkonline=%x[ping google.com -c1 -w500 | tail -1].to_s.strip! 
+online = false if  checkonline.empty?
+
+# Kernel.exit(false)
+
 baseValues.each do | name, descr |
     i += 1
     r = rand 100
     id = (4154 + i).to_s
     imgsmall = img1
     imgbig = img2
+    if online
+      imgsmall=%x[curl -Is https://source.unsplash.com/random/250x140 | grep "Location: http" | cut -d' ' -f2-].to_s.strip! 
+      imgsmall = img1 if imgsmall.empty?
+      imgbig=%x[curl -Is https://source.unsplash.com/random/590x375 | grep "Location: http" | cut -d' ' -f2-].to_s.strip! 
+      imgbig = img2  if imgbig.empty?
+    end 
     if name.to_s === 'Task A' 
       imgsmall = imga
       imgbig = imga
-    end
-    if name.to_s === 'Task B' 
+    elsif name.to_s === 'Task B' 
       imgsmall = imgb
       imgbig = imgb
     end

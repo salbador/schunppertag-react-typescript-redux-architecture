@@ -14,6 +14,19 @@ def generateNick(nicknames, r)
     end 
     nickname
 end  
+
+pexel = true
+PEXELAPI=%x[cat .env | grep PEXELAPI |  cut -d'=' -f2- ] if File.file?('.env')
+pexel = false if PEXELAPI.empty?
+imgpage=$x[curl -IsH "Authorization: #{PEXELAPI}" "https://api.pexels.com/v1/search?query=people"] if pexel 
+
+Kernel.exit(false)
+
+online = true
+checkonline=%x[ping google.com -c1 -w500 | tail -1].to_s.strip! 
+online = false if  checkonline.empty?
+
+
 nicknames = [] 
 baseUrl = 'https://github.com/salbador/schunppertag-react-typescript-redux-architecture'
 highscores = []

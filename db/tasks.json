@@ -29,8 +29,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://source.unsplash.com/random/250x140",
-      "original": "https://source.unsplash.com/random/590x375"
+      "medium": "https://images.unsplash.com/photo-1602364368398-a1ecc7cfdb6e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=140&ixlib=rb-1.2.1&q=80&w=250",
+      "original": "https://images.unsplash.com/photo-1603308541605-b83ba82409db?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=375&ixlib=rb-1.2.1&q=80&w=590"
     },
     "summary": "<p>[✅] The playing field consists of 4 x 4 fields.</p>",
     "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -47,8 +47,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://source.unsplash.com/random/250x140",
-      "original": "https://source.unsplash.com/random/590x375"
+      "medium": "https://images.unsplash.com/photo-1604073895403-fd2fc0eaf9fd?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=140&ixlib=rb-1.2.1&q=80&w=250",
+      "original": "https://images.unsplash.com/photo-1603127082231-601f9f18ab1b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=375&ixlib=rb-1.2.1&q=80&w=590"
     },
     "summary": "<p>[✅] Each field is initialized randomly with the value EMPTY, 1 or 2.</p>",
     "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -65,8 +65,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://source.unsplash.com/random/250x140",
-      "original": "https://source.unsplash.com/random/590x375"
+      "medium": "https://images.unsplash.com/photo-1604073895403-fd2fc0eaf9fd?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=140&ixlib=rb-1.2.1&q=80&w=250",
+      "original": "https://images.unsplash.com/photo-1603127082231-601f9f18ab1b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=375&ixlib=rb-1.2.1&q=80&w=590"
     },
     "summary": "<p>[✅] The player can move the playing field with the cursor keys Left, Right, Up, Down.</p>",
     "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -83,8 +83,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://source.unsplash.com/random/250x140",
-      "original": "https://source.unsplash.com/random/590x375"
+      "medium": "https://images.unsplash.com/photo-1603139835583-293626619f2f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=140&ixlib=rb-1.2.1&q=80&w=250",
+      "original": "https://images.unsplash.com/photo-1602447521726-276042f9afb8?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=375&ixlib=rb-1.2.1&q=80&w=590"
     },
     "summary": "<p>[✅] Hereby each field moves one field in the corresponding direction.</p>",
     "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -101,8 +101,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://source.unsplash.com/random/250x140",
-      "original": "https://source.unsplash.com/random/590x375"
+      "medium": "https://images.unsplash.com/photo-1603139835583-293626619f2f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=140&ixlib=rb-1.2.1&q=80&w=250",
+      "original": "https://images.unsplash.com/photo-1602447521726-276042f9afb8?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=375&ixlib=rb-1.2.1&q=80&w=590"
     },
     "summary": "<p>[✅] A field cannot be moved beyond the edge of the playing field.</p>",
     "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -119,8 +119,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://source.unsplash.com/random/250x140",
-      "original": "https://source.unsplash.com/random/590x375"
+      "medium": "https://images.unsplash.com/photo-1603903497799-837188195898?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=140&ixlib=rb-1.2.1&q=80&w=250",
+      "original": "https://images.unsplash.com/photo-1603039998320-20c0b2d14ea8?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=375&ixlib=rb-1.2.1&q=80&w=590"
     },
     "summary": "<p>[✅] A field cannot move into its direction, if the field in the corresponding direction is already occupied and does not have the same value.</p>",
     "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -137,8 +137,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://source.unsplash.com/random/250x140",
-      "original": "https://source.unsplash.com/random/590x375"
+      "medium": "https://images.unsplash.com/photo-1603903497799-837188195898?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=140&ixlib=rb-1.2.1&q=80&w=250",
+      "original": "https://images.unsplash.com/photo-1603039998320-20c0b2d14ea8?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=375&ixlib=rb-1.2.1&q=80&w=590"
     },
     "summary": "<p>[✅] A field can be moved to another field if both values of the fields are identical.</p>",
     "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -155,8 +155,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://source.unsplash.com/random/250x140",
-      "original": "https://source.unsplash.com/random/590x375"
+      "medium": "https://images.unsplash.com/photo-1603487102641-671c975748b6?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=140&ixlib=rb-1.2.1&q=80&w=250",
+      "original": "https://images.unsplash.com/photo-1602185470750-948f9de00c33?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=375&ixlib=rb-1.2.1&q=80&w=590"
     },
     "summary": "<p>[✅] If this happens, one field is removed and the value of the other field is doubled.</p>",
     "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -173,8 +173,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://source.unsplash.com/random/250x140",
-      "original": "https://source.unsplash.com/random/590x375"
+      "medium": "https://images.unsplash.com/photo-1603487102641-671c975748b6?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=140&ixlib=rb-1.2.1&q=80&w=250",
+      "original": "https://images.unsplash.com/photo-1602185470750-948f9de00c33?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=375&ixlib=rb-1.2.1&q=80&w=590"
     },
     "summary": "<p>[✅] After each move, a 1 or 2 is randomly added at the opposite edge of the move direction, on an empty field.</p>",
     "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -191,8 +191,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://source.unsplash.com/random/250x140",
-      "original": "https://source.unsplash.com/random/590x375"
+      "medium": "https://images.unsplash.com/photo-1604516087408-a7cde81ecf0f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=140&ixlib=rb-1.2.1&q=80&w=250",
+      "original": "https://images.unsplash.com/photo-1604298104033-a999ff7ec963?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=375&ixlib=rb-1.2.1&q=80&w=590"
     },
     "summary": "<p>[✅] The game is over when there are no more valid moves.</p>",
     "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -227,8 +227,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://source.unsplash.com/random/250x140",
-      "original": "https://source.unsplash.com/random/590x375"
+      "medium": "https://images.unsplash.com/photo-1603651825884-4abfd0885155?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=140&ixlib=rb-1.2.1&q=80&w=250",
+      "original": "https://images.unsplash.com/photo-1602629978879-e7ed887988d1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=375&ixlib=rb-1.2.1&q=80&w=590"
     },
     "summary": "<p>[✅] The player starts with the left game state and presses the Down button.</p>",
     "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -245,8 +245,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://source.unsplash.com/random/250x140",
-      "original": "https://source.unsplash.com/random/590x375"
+      "medium": "https://images.unsplash.com/photo-1603651825884-4abfd0885155?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=140&ixlib=rb-1.2.1&q=80&w=250",
+      "original": "https://images.unsplash.com/photo-1602629978879-e7ed887988d1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=375&ixlib=rb-1.2.1&q=80&w=590"
     },
     "summary": "<p>[✅] The 1st column does not move because each field is blocked.</p>",
     "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -263,8 +263,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://source.unsplash.com/random/250x140",
-      "original": "https://source.unsplash.com/random/590x375"
+      "medium": "https://images.unsplash.com/photo-1603062204656-55e51f2ac9a5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=140&ixlib=rb-1.2.1&q=80&w=250",
+      "original": "https://images.unsplash.com/photo-1603246497464-7b794a76d8dc?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=375&ixlib=rb-1.2.1&q=80&w=590"
     },
     "summary": "<p>[✅] In the 2. column the 2s connect to 4. The 1 slips into the free field.</p>",
     "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -281,8 +281,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://source.unsplash.com/random/250x140",
-      "original": "https://source.unsplash.com/random/590x375"
+      "medium": "https://images.unsplash.com/photo-1603062204656-55e51f2ac9a5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=140&ixlib=rb-1.2.1&q=80&w=250",
+      "original": "https://images.unsplash.com/photo-1603246497464-7b794a76d8dc?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=375&ixlib=rb-1.2.1&q=80&w=590"
     },
     "summary": "<p>[✅] In the 3rd column the 1's that are closest to the edge are connected.</p>",
     "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -299,8 +299,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://source.unsplash.com/random/250x140",
-      "original": "https://source.unsplash.com/random/590x375"
+      "medium": "https://images.unsplash.com/photo-1604214684476-2ecbacbb477e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=140&ixlib=rb-1.2.1&q=80&w=250",
+      "original": "https://images.unsplash.com/photo-1602803056945-ebac8ae8fd00?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=375&ixlib=rb-1.2.1&q=80&w=590"
     },
     "summary": "<p>[✅] In the 4th column the 1 slides down.</p>",
     "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" } }
@@ -317,8 +317,8 @@
     "addedstamp": "2020-11-03T03:00:00+00:00",
     "runtime": 60,
     "image": {
-      "medium": "https://source.unsplash.com/random/250x140",
-      "original": "https://source.unsplash.com/random/590x375"
+      "medium": "https://images.unsplash.com/photo-1604214684476-2ecbacbb477e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=140&ixlib=rb-1.2.1&q=80&w=250",
+      "original": "https://images.unsplash.com/photo-1602803056945-ebac8ae8fd00?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=375&ixlib=rb-1.2.1&q=80&w=590"
     },
     "summary": "<p>[✅] Since the player is pressing down, a number is randomly added to the top row. In this case a 1 at the top right.</p>",
     "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture" } }
