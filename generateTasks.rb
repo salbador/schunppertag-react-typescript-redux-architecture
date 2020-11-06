@@ -41,7 +41,7 @@ baseValues.each do | name, descr |
         "url": "' + baseUrl +'/master/",
         "name": "' + name.to_s + '",
         "milestone": 0,
-        "number": 1,
+        "number": ' + i.to_s + ',
         "type": "regular",
         "addeddate": "2020-11-03",
         "addedtime": "22:00",
