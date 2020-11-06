@@ -2,25 +2,25 @@
   {
     "person": {
       "id": 10709,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10709/the-hon.-wendell-dach",
-      "name": "The Hon. Wendell Dach",
-      "country": { "name": "Barbados", "code": "IM", "timezone": "Asia/Bangkok" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10709/timmy-jacobi",
+      "name": "Timmy Jacobi",
+      "country": { "name": "Saint Martin", "code": "EE", "timezone": "Asia/Tokyo" },
       "deathday": null,
       "score": 3000,
       "gender": "Male",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Saint Lucia,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Senegal,face,human,man"
+        "medium": "https://images.pexels.com/photos/2477357/pexels-photo-2477357.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/2477357/pexels-photo-2477357.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10709" } }
     },
     "character": {
       "id": 11320,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11320",
-      "name": "Finn",
+      "name": "Barry Cade",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Saint Lucia,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Senegal,face,human,man"
+        "medium": "https://images.pexels.com/photos/2477357/pexels-photo-2477357.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/2477357/pexels-photo-2477357.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11320" } }
     },
@@ -30,25 +30,25 @@
   {
     "person": {
       "id": 10710,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10710/mr.-barb-funk",
-      "name": "Mr. Barb Funk",
-      "country": { "name": "Saint Vincent and the Grenadines", "code": "AT", "timezone": "America/Chicago" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10710/tawny-kautzer",
+      "name": "Tawny Kautzer",
+      "country": { "name": "Latvia", "code": "MF", "timezone": "Europe/Belgrade" },
       "deathday": null,
       "score": 2998,
       "gender": "Female",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Brazil,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Lebanon,face,human,man"
+        "medium": "https://images.pexels.com/photos/3556533/pexels-photo-3556533.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/3556533/pexels-photo-3556533.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10710" } }
     },
     "character": {
       "id": 11321,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11321",
-      "name": "Jean Poole",
+      "name": "Android 16",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Brazil,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Lebanon,face,human,man"
+        "medium": "https://images.pexels.com/photos/3556533/pexels-photo-3556533.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/3556533/pexels-photo-3556533.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11321" } }
     },
@@ -58,25 +58,25 @@
   {
     "person": {
       "id": 10711,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10711/sabra-haag",
-      "name": "Sabra Haag",
-      "country": { "name": "South Africa", "code": "AU", "timezone": "Asia/Dhaka" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10711/deanne-nader",
+      "name": "Deanne Nader",
+      "country": { "name": "Namibia", "code": "TZ", "timezone": "Europe/Vilnius" },
       "deathday": null,
       "score": 2992,
-      "gender": "Male",
+      "gender": "Female",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Saudi Arabia,face,human,woman",
-        "original": "https://loremflickr.com/690/1035/Luxembourg,face,human,woman"
+        "medium": "https://images.pexels.com/photos/1427431/pexels-photo-1427431.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/1427431/pexels-photo-1427431.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10711" } }
     },
     "character": {
       "id": 11322,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11322",
-      "name": "Supreme Leader Snoke",
+      "name": "Rune Haako",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Saudi Arabia,face,human,woman",
-        "original": "https://loremflickr.com/690/1035/Luxembourg,face,human,woman"
+        "medium": "https://images.pexels.com/photos/1427431/pexels-photo-1427431.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/1427431/pexels-photo-1427431.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11322" } }
     },
@@ -86,25 +86,25 @@
   {
     "person": {
       "id": 10712,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10712/lory-cremin",
-      "name": "Lory Cremin",
-      "country": { "name": "Mozambique", "code": "DK", "timezone": "Asia/Almaty" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10712/lucila-zieme",
+      "name": "Lucila Zieme",
+      "country": { "name": "Bosnia and Herzegovina", "code": "CL", "timezone": "Atlantic/Azores" },
       "deathday": null,
       "score": 2982,
-      "gender": "Male",
+      "gender": "Female",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Guadeloupe,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Congo,face,human,man"
+        "medium": "https://images.pexels.com/photos/1820656/pexels-photo-1820656.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/1820656/pexels-photo-1820656.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10712" } }
     },
     "character": {
       "id": 11323,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11323",
-      "name": "Galen",
+      "name": "Chi-Chi",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Guadeloupe,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Congo,face,human,man"
+        "medium": "https://images.pexels.com/photos/1820656/pexels-photo-1820656.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/1820656/pexels-photo-1820656.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11323" } }
     },
@@ -114,25 +114,25 @@
   {
     "person": {
       "id": 10713,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10713/guillermo-becker",
-      "name": "Guillermo Becker",
-      "country": { "name": "Serbia", "code": "UZ", "timezone": "America/Sao_Paulo" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10713/pres.-donnie-quigley",
+      "name": "Pres. Donnie Quigley",
+      "country": { "name": "Panama", "code": "KY", "timezone": "Asia/Urumqi" },
       "deathday": null,
       "score": 2968,
       "gender": "Male",
       "image": {
-        "medium": "https://loremflickr.com/210/295/New Zealand,face,human,woman",
-        "original": "https://loremflickr.com/690/1035/Venezuela,face,human,woman"
+        "medium": "https://images.pexels.com/photos/4557388/pexels-photo-4557388.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/4557388/pexels-photo-4557388.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10713" } }
     },
     "character": {
       "id": 11324,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11324",
-      "name": "Cordelia Chase",
+      "name": "Sabine Wren",
       "image": {
-        "medium": "https://loremflickr.com/210/295/New Zealand,face,human,woman",
-        "original": "https://loremflickr.com/690/1035/Venezuela,face,human,woman"
+        "medium": "https://images.pexels.com/photos/4557388/pexels-photo-4557388.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/4557388/pexels-photo-4557388.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11324" } }
     },
@@ -142,25 +142,25 @@
   {
     "person": {
       "id": 10714,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10714/sen.-philomena-bins",
-      "name": "Sen. Philomena Bins",
-      "country": { "name": "Turkmenistan", "code": "CC", "timezone": "Asia/Tokyo" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10714/brad-spinka",
+      "name": "Brad Spinka",
+      "country": { "name": "Hong Kong", "code": "TN", "timezone": "Africa/Johannesburg" },
       "deathday": null,
       "score": 2950,
-      "gender": "Female",
+      "gender": "Male",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Saint Vincent and the Grenadines,face,human,man",
-        "original": "https://loremflickr.com/690/1035/British Indian Ocean Territory (Chagos Archipelago),face,human,man"
+        "medium": "https://images.pexels.com/photos/3214734/pexels-photo-3214734.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/3214734/pexels-photo-3214734.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10714" } }
     },
     "character": {
       "id": 11325,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11325",
-      "name": "Diogenes",
+      "name": "Dee Sember",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Saint Vincent and the Grenadines,face,human,man",
-        "original": "https://loremflickr.com/690/1035/British Indian Ocean Territory (Chagos Archipelago),face,human,man"
+        "medium": "https://images.pexels.com/photos/3214734/pexels-photo-3214734.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/3214734/pexels-photo-3214734.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11325" } }
     },
@@ -170,25 +170,25 @@
   {
     "person": {
       "id": 10715,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10715/etha-friesen-jr.",
-      "name": "Etha Friesen Jr.",
-      "country": { "name": "Paraguay", "code": "HT", "timezone": "Australia/Sydney" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10715/lanora-langworth",
+      "name": "Lanora Langworth",
+      "country": { "name": "Dominican Republic", "code": "BM", "timezone": "Asia/Kabul" },
       "deathday": null,
       "score": 2928,
       "gender": "Female",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Angola,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Malaysia,face,human,man"
+        "medium": "https://images.pexels.com/photos/3811977/pexels-photo-3811977.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/3811977/pexels-photo-3811977.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10715" } }
     },
     "character": {
       "id": 11326,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11326",
-      "name": "Amy Madison",
+      "name": "Stew Ng",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Angola,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Malaysia,face,human,man"
+        "medium": "https://images.pexels.com/photos/3811977/pexels-photo-3811977.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/3811977/pexels-photo-3811977.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11326" } }
     },
@@ -198,25 +198,25 @@
   {
     "person": {
       "id": 10716,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10716/helene-wuckert-ii",
-      "name": "Helene Wuckert II",
-      "country": { "name": "Azerbaijan", "code": "LA", "timezone": "Pacific/Noumea" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10716/julius-stroman",
+      "name": "Julius Stroman",
+      "country": { "name": "Latvia", "code": "BQ", "timezone": "America/Juneau" },
       "deathday": null,
       "score": 2902,
       "gender": "Female",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Kyrgyz Republic,face,human,woman",
-        "original": "https://loremflickr.com/690/1035/Saint Martin,face,human,woman"
+        "medium": "https://images.pexels.com/photos/34291/sailors-all-hands-navy-military.jpg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/34291/sailors-all-hands-navy-military.jpg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10716" } }
     },
     "character": {
       "id": 11327,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11327",
-      "name": "Android 18",
+      "name": "Brooke Trout",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Kyrgyz Republic,face,human,woman",
-        "original": "https://loremflickr.com/690/1035/Saint Martin,face,human,woman"
+        "medium": "https://images.pexels.com/photos/34291/sailors-all-hands-navy-military.jpg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/34291/sailors-all-hands-navy-military.jpg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11327" } }
     },
@@ -226,25 +226,25 @@
   {
     "person": {
       "id": 10717,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10717/damon-murray",
-      "name": "Damon Murray",
-      "country": { "name": "Albania", "code": "AS", "timezone": "Europe/Copenhagen" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10717/latanya-abshire",
+      "name": "Latanya Abshire",
+      "country": { "name": "Estonia", "code": "TL", "timezone": "America/Los_Angeles" },
       "deathday": null,
       "score": 2872,
-      "gender": "Male",
+      "gender": "Female",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Mayotte,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Faroe Islands,face,human,man"
+        "medium": "https://images.pexels.com/photos/236302/pexels-photo-236302.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/236302/pexels-photo-236302.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10717" } }
     },
     "character": {
       "id": 11328,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11328",
-      "name": "Epicurus",
+      "name": "Misty Meanor",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Mayotte,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Faroe Islands,face,human,man"
+        "medium": "https://images.pexels.com/photos/236302/pexels-photo-236302.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/236302/pexels-photo-236302.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11328" } }
     },
@@ -254,25 +254,25 @@
   {
     "person": {
       "id": 10718,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10718/meaghan-gislason",
-      "name": "Meaghan Gislason",
-      "country": { "name": "Iran", "code": "CZ", "timezone": "Asia/Karachi" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10718/katherin-legros-jd",
+      "name": "Katherin Legros JD",
+      "country": { "name": "Mozambique", "code": "MQ", "timezone": "Asia/Jakarta" },
       "deathday": null,
       "score": 2838,
-      "gender": "Female",
+      "gender": "Male",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Cote d'Ivoire,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Libyan Arab Jamahiriya,face,human,man"
+        "medium": "https://images.pexels.com/photos/3059930/pexels-photo-3059930.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/3059930/pexels-photo-3059930.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10718" } }
     },
     "character": {
       "id": 11329,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11329",
-      "name": "Boba Fett",
+      "name": "Rupert Giles",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Cote d'Ivoire,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Libyan Arab Jamahiriya,face,human,man"
+        "medium": "https://images.pexels.com/photos/3059930/pexels-photo-3059930.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/3059930/pexels-photo-3059930.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11329" } }
     },
@@ -282,25 +282,25 @@
   {
     "person": {
       "id": 10719,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10719/johnna-stanton-v",
-      "name": "Johnna Stanton V",
-      "country": { "name": "Burundi", "code": "EG", "timezone": "Asia/Rangoon" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10719/sharon-macgyver",
+      "name": "Sharon MacGyver",
+      "country": { "name": "Pakistan", "code": "AI", "timezone": "Asia/Taipei" },
       "deathday": null,
       "score": 2800,
-      "gender": "Male",
+      "gender": "Female",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Angola,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Indonesia,face,human,man"
+        "medium": "https://images.pexels.com/photos/433452/pexels-photo-433452.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/433452/pexels-photo-433452.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10719" } }
     },
     "character": {
       "id": 11330,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11330",
-      "name": "Macon Paine",
+      "name": "Obi-Wan Kenobi",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Angola,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Indonesia,face,human,man"
+        "medium": "https://images.pexels.com/photos/433452/pexels-photo-433452.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/433452/pexels-photo-433452.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11330" } }
     },
@@ -310,25 +310,25 @@
   {
     "person": {
       "id": 10720,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10720/the-hon.-elwanda-johns",
-      "name": "The Hon. Elwanda Johns",
-      "country": { "name": "Colombia", "code": "ST", "timezone": "Asia/Kolkata" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10720/virgilio-bashirian-do",
+      "name": "Virgilio Bashirian DO",
+      "country": { "name": "Tokelau", "code": "CM", "timezone": "America/Santiago" },
       "deathday": null,
       "score": 2758,
       "gender": "Female",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Equatorial Guinea,face,human,woman",
-        "original": "https://loremflickr.com/690/1035/Sierra Leone,face,human,woman"
+        "medium": "https://images.pexels.com/photos/3732865/pexels-photo-3732865.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/3732865/pexels-photo-3732865.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10720" } }
     },
     "character": {
       "id": 11331,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11331",
-      "name": "Anya Jenkins",
+      "name": "Des Buratto",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Equatorial Guinea,face,human,woman",
-        "original": "https://loremflickr.com/690/1035/Sierra Leone,face,human,woman"
+        "medium": "https://images.pexels.com/photos/3732865/pexels-photo-3732865.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/3732865/pexels-photo-3732865.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11331" } }
     },
@@ -338,25 +338,25 @@
   {
     "person": {
       "id": 10721,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10721/annabel-pfeffer",
-      "name": "Annabel Pfeffer",
-      "country": { "name": "Morocco", "code": "ES", "timezone": "Pacific/Apia" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10721/louetta-stiedemann",
+      "name": "Louetta Stiedemann",
+      "country": { "name": "Maldives", "code": "IS", "timezone": "America/Godthab" },
       "deathday": null,
       "score": 2712,
       "gender": "Female",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Portugal,face,human,woman",
-        "original": "https://loremflickr.com/690/1035/Cuba,face,human,woman"
+        "medium": "https://images.pexels.com/photos/3730976/pexels-photo-3730976.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/3730976/pexels-photo-3730976.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10721" } }
     },
     "character": {
       "id": 11332,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11332",
-      "name": "Gorgias",
+      "name": "Android 18",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Portugal,face,human,woman",
-        "original": "https://loremflickr.com/690/1035/Cuba,face,human,woman"
+        "medium": "https://images.pexels.com/photos/3730976/pexels-photo-3730976.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/3730976/pexels-photo-3730976.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11332" } }
     },
@@ -366,25 +366,25 @@
   {
     "person": {
       "id": 10722,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10722/tamie-ortiz",
-      "name": "Tamie Ortiz",
-      "country": { "name": "Libyan Arab Jamahiriya", "code": "PN", "timezone": "Australia/Perth" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10722/blake-lesch",
+      "name": "Blake Lesch",
+      "country": { "name": "Cuba", "code": "MA", "timezone": "America/Argentina/Buenos_Aires" },
       "deathday": null,
       "score": 2662,
-      "gender": "Male",
+      "gender": "Female",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Latvia,face,human,woman",
-        "original": "https://loremflickr.com/690/1035/Montenegro,face,human,woman"
+        "medium": "https://images.pexels.com/photos/3768222/pexels-photo-3768222.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/3768222/pexels-photo-3768222.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10722" } }
     },
     "character": {
       "id": 11333,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11333",
-      "name": "Faith Lehane",
+      "name": "Super Saiyan Vegeta",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Latvia,face,human,woman",
-        "original": "https://loremflickr.com/690/1035/Montenegro,face,human,woman"
+        "medium": "https://images.pexels.com/photos/3768222/pexels-photo-3768222.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/3768222/pexels-photo-3768222.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11333" } }
     },
@@ -394,195 +394,27 @@
   {
     "person": {
       "id": 10723,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10723/virgina-nikolaus",
-      "name": "Virgina Nikolaus",
-      "country": { "name": "Saint Barthelemy", "code": "BL", "timezone": "America/Guyana" },
+      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10723/romeo-daniel",
+      "name": "Romeo Daniel",
+      "country": { "name": "Poland", "code": "VA", "timezone": "Asia/Kolkata" },
       "deathday": null,
       "score": 2608,
-      "gender": "Female",
+      "gender": "Male",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Albania,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Thailand,face,human,man"
+        "medium": "https://images.pexels.com/photos/3060659/pexels-photo-3060659.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/3060659/pexels-photo-3060659.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10723" } }
     },
     "character": {
       "id": 11334,
       "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11334",
-      "name": "Heraclitus",
+      "name": "Han Solo",
       "image": {
-        "medium": "https://loremflickr.com/210/295/Albania,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Thailand,face,human,man"
+        "medium": "https://images.pexels.com/photos/3060659/pexels-photo-3060659.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "original": "https://images.pexels.com/photos/3060659/pexels-photo-3060659.jpeg"
       },
       "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11334" } }
-    },
-    "self": false,
-    "voice": false
-  },
-  {
-    "person": {
-      "id": 10724,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10724/morton-murray",
-      "name": "Morton Murray",
-      "country": { "name": "Montenegro", "code": "TK", "timezone": "Asia/Rangoon" },
-      "deathday": null,
-      "score": 2550,
-      "gender": "Male",
-      "image": {
-        "medium": "https://loremflickr.com/210/295/Yemen,face,human,man",
-        "original": "https://loremflickr.com/690/1035/France,face,human,man"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10724" } }
-    },
-    "character": {
-      "id": 11335,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11335",
-      "name": "Android 17",
-      "image": {
-        "medium": "https://loremflickr.com/210/295/Yemen,face,human,man",
-        "original": "https://loremflickr.com/690/1035/France,face,human,man"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11335" } }
-    },
-    "self": false,
-    "voice": false
-  },
-  {
-    "person": {
-      "id": 10725,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10725/lavern-carter",
-      "name": "Lavern Carter",
-      "country": { "name": "Nepal", "code": "IL", "timezone": "Asia/Colombo" },
-      "deathday": null,
-      "score": 2488,
-      "gender": "Female",
-      "image": {
-        "medium": "https://loremflickr.com/210/295/Vanuatu,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Anguilla,face,human,man"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10725" } }
-    },
-    "character": {
-      "id": 11336,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11336",
-      "name": "Thucydides",
-      "image": {
-        "medium": "https://loremflickr.com/210/295/Vanuatu,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Anguilla,face,human,man"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11336" } }
-    },
-    "self": false,
-    "voice": false
-  },
-  {
-    "person": {
-      "id": 10726,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10726/melvin-hermiston",
-      "name": "Melvin Hermiston",
-      "country": { "name": "Oman", "code": "RE", "timezone": "Asia/Novosibirsk" },
-      "deathday": null,
-      "score": 2422,
-      "gender": "Male",
-      "image": {
-        "medium": "https://loremflickr.com/210/295/Mexico,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Falkland Islands (Malvinas),face,human,man"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10726" } }
-    },
-    "character": {
-      "id": 11337,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11337",
-      "name": "Super Saiyan Vegeta",
-      "image": {
-        "medium": "https://loremflickr.com/210/295/Mexico,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Falkland Islands (Malvinas),face,human,man"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11337" } }
-    },
-    "self": false,
-    "voice": false
-  },
-  {
-    "person": {
-      "id": 10727,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10727/gil-herman",
-      "name": "Gil Herman",
-      "country": { "name": "Puerto Rico", "code": "BH", "timezone": "Europe/Zagreb" },
-      "deathday": null,
-      "score": 2352,
-      "gender": "Female",
-      "image": {
-        "medium": "https://loremflickr.com/210/295/Cayman Islands,face,human,woman",
-        "original": "https://loremflickr.com/690/1035/Czech Republic,face,human,woman"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10727" } }
-    },
-    "character": {
-      "id": 11338,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11338",
-      "name": "Jango Fett",
-      "image": {
-        "medium": "https://loremflickr.com/210/295/Cayman Islands,face,human,woman",
-        "original": "https://loremflickr.com/690/1035/Czech Republic,face,human,woman"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11338" } }
-    },
-    "self": false,
-    "voice": false
-  },
-  {
-    "person": {
-      "id": 10728,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10728/scot-ebert",
-      "name": "Scot Ebert",
-      "country": { "name": "Kyrgyz Republic", "code": "TD", "timezone": "Pacific/Majuro" },
-      "deathday": null,
-      "score": 2278,
-      "gender": "Male",
-      "image": {
-        "medium": "https://loremflickr.com/210/295/Bulgaria,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Bahamas,face,human,man"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10728" } }
-    },
-    "character": {
-      "id": 11339,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11339",
-      "name": "Archimedes",
-      "image": {
-        "medium": "https://loremflickr.com/210/295/Bulgaria,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Bahamas,face,human,man"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11339" } }
-    },
-    "self": false,
-    "voice": false
-  },
-  {
-    "person": {
-      "id": 10729,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10729/tyler-conroy",
-      "name": "Tyler Conroy",
-      "country": { "name": "Myanmar", "code": "GH", "timezone": "America/Phoenix" },
-      "deathday": null,
-      "score": 2200,
-      "gender": "Male",
-      "image": {
-        "medium": "https://loremflickr.com/210/295/Equatorial Guinea,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Georgia,face,human,man"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/10729" } }
-    },
-    "character": {
-      "id": 11340,
-      "url": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11340",
-      "name": "Anaxagoras",
-      "image": {
-        "medium": "https://loremflickr.com/210/295/Equatorial Guinea,face,human,man",
-        "original": "https://loremflickr.com/690/1035/Georgia,face,human,man"
-      },
-      "_links": { "self": { "href": "https://github.com/salbador/schunppertag-react-typescript-redux-architecture/11340" } }
     },
     "self": false,
     "voice": false

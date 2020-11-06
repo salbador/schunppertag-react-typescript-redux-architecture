@@ -14,6 +14,7 @@
     "generate": "node ./tools/generate.js",
     "dummy:tasks": "nodemon --watch generateTasks.rb --exec bundle exec ruby generateTasks.rb",
     "dummy:highscores": "nodemon --watch generateBoard.rb --exec bundle exec ruby generateBoard.rb",
+    "dummy:board": "nodemon --watch generateBoard.rb --exec bundle exec ruby generateBoard.rb",
     "---------- DEVELOPMENT ---------------------------------------------------------------------------------": "",
     "start": "cross-env CLIENT_ENV=development craco start",
     "prod": "cross-env CLIENT_ENV=production craco start",

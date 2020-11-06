@@ -1,5 +1,5 @@
 require 'faker'
-
+require 'json'
 def generateNick(nicknames, r)
     nickname = ((r > 20) ? 
     ((r > 40) ? 
@@ -15,22 +15,64 @@ def generateNick(nicknames, r)
     nickname
 end  
 
-pexel = true
-PEXELAPI=%x[cat .env | grep PEXELAPI |  cut -d'=' -f2- ] if File.file?('.env')
-pexel = false if PEXELAPI.empty?
-imgpage=$x[curl -IsH "Authorization: #{PEXELAPI}" "https://api.pexels.com/v1/search?query=people"] if pexel 
-
-Kernel.exit(false)
 
 online = true
 checkonline=%x[ping google.com -c1 -w500 | tail -1].to_s.strip! 
 online = false if  checkonline.empty?
 
+total = 21
+pexel = false
+images = []
+if online
+  pexel = true
+  PEXELAPI=%x[cat .env | grep PEXELAPI |  cut -d'=' -f2- ] if File.file?('.env')
+  pexel = false if PEXELAPI.empty?
+  imgpage=%x[curl -sH "Authorization: $(cat .env | grep PEXELAPI |  cut -d'=' -f2- )" "https://api.pexels.com/v1/search?query=people"] if pexel 
+  # " fix for Visual Studio coloring
+  # puts pexel
+  # puts PEXELAPI
+  # puts '.....'
+  imgsjson = JSON.parse(imgpage)
+  # puts imgpage
+  # puts imgsjson
+  # puts '.....'
+  total = 0
+  imgsjson.each  do | k, v | 
+    # p k
+    # p v  
+    if k == 'photos'
+      v.each  do | item | 
+        # p item
+        item.each  do | kk, vv | 
+          # p kk
+          total += 1 if kk == 'id' 
+          if kk == 'src'
+            # p vv 
+            # vv.each  do | kkk, vvv |
+            # p kkk 
+            image = { 'medium' => vv['medium'], 'original' => vv['original'] }
+            images << image
+          end 
+        end 
+      end 
+    end 
+    # p imgsjson[k]
+  end 
+  puts total
+  puts '.....'
+  # p images
+  # puts '.....'
+  # Kernel.exit(false)
+end 
+# total.times do | i |
+#   p images[i]['medium'].to_s
+# end
+# Kernel.exit(false)
 
 nicknames = [] 
 baseUrl = 'https://github.com/salbador/schunppertag-react-typescript-redux-architecture'
 highscores = []
-21.times do | i |
+total.times do | i |
     r = rand 100
     id = (10709 + i).to_s
     score = (3000 - (i * i + (i * i))).to_s 
@@ -41,7 +83,16 @@ highscores = []
     gender = Faker::Gender.binary_type == 'Female' ? 'woman' : 'man'
     img1 = Faker::LoremFlickr.image(size: "210x295", search_terms: [ address.country, 'face', 'human', gender])
     img2 = Faker::LoremFlickr.image(size: "690x1035", search_terms: [ address.country, 'face', 'human', gender])
-    img3 = Faker::Fillmurray.image(grayscale: false, width: 210, height: 295)
+    if online
+      imgsmall = images[i]['medium'].to_s
+      imgsmall = img1 if  imgsmall.empty?
+      imgbig = images[i]['original'].to_s
+      imgbig = img2  if imgbig.empty?
+    else 
+      imgsmall = img1
+      imgbig = img2 
+      # img3 = Faker::Fillmurray.image(grayscale: false, width: 210, height: 295)
+    end 
     nickname = generateNick(nicknames, r)
     nicknames << nickname
     highscores << '{
@@ -54,8 +105,8 @@ highscores = []
           "score": ' +  score  + ',
           "gender": "' +  Faker::Gender.binary_type  + '",
           "image": {
-            "medium": "' +  img1  + '",
-            "original": "' +  img2  + '"
+            "medium": "' +  imgsmall  + '",
+            "original": "' +  imgbig  + '"
           },
           "_links": { "self": { "href": "' +  baseUrl  + '/' +  id  + '" } }
         },
@@ -64,8 +115,8 @@ highscores = []
           "url": "' +  baseUrl  + '/' +  id2  + '", 
           "name": "' +  nickname  + '",
           "image": {
-            "medium": "' +  img1  + '",
-            "original": "' +  img2  + '"
+            "medium": "' +  imgsmall  + '",
+            "original": "' +  imgbig  + '"
           },
           "_links": { "self": { "href": "' +  baseUrl  + '/' +  id2  + '" } }
         },
