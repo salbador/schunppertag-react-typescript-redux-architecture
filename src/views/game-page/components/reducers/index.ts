@@ -86,12 +86,12 @@ function applicationState(state = initialState, action: ActionModel) {
 
   newState.defeat = !movePossible(newState.board);
   newState.encouragement = false;
+  let found = false;
   victoryEncouragements.map(function(i) {
-    if (
-      !!newState.board.find(function(v) {
-        return v === i;
-      }) === true
-    ) {
+    found = !!newState.board.find(function(v) {
+      return v === i;
+    });
+    if (found) {
       newState.lastValue = i;
       newState.encouragement = true;
       return true;

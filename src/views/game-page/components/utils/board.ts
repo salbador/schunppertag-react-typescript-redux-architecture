@@ -152,18 +152,15 @@ export function updateBoard(board: BoardType, direction: Direction): BoardUpdate
 
   // First the board is rotated so gravity can work downwards.
   board = rotateBoard(board, direction);
-  // console.log(board);
   let changed = false;
   let scoreIncrease = 0;
   let animations: Animation[] = [];
   let lastMergedIndex: number | undefined = undefined;
-  // console.log(boardSize);
 
   for (let col = 0; col < boardSize; col++) {
     // Going from second last to the first row on the rotated board.
     for (let row = boardSize - 2; row >= 0; row--) {
       const initialIndex = row * boardSize + col;
-      // console.log(initialIndex);
 
       if (board[initialIndex] === 0) {
         continue;
@@ -171,7 +168,6 @@ export function updateBoard(board: BoardType, direction: Direction): BoardUpdate
 
       let i = initialIndex;
       let below = i + boardSize;
-      // console.log(below);
 
       let merged = false;
       let finalIndex: number | undefined = undefined;
@@ -197,7 +193,6 @@ export function updateBoard(board: BoardType, direction: Direction): BoardUpdate
         finalIndex = below;
         below = i + boardSize;
       }
-      // console.log(board);
 
       if (finalIndex !== undefined) {
         animations.push({
@@ -218,11 +213,9 @@ export function updateBoard(board: BoardType, direction: Direction): BoardUpdate
       }
     }
   }
-  // console.log(board);
 
   // Undo board rotation.
   board = rotateBoard(board, direction, true);
-  // console.log(board);
 
   animations = rotateAnimations(board, animations, direction);
 
