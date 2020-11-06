@@ -94,4 +94,4 @@ See the section About [deployment](https://facebook.github.io/create-react-app/d
 
 ## Testing
 
-yarn run test
+#### `yarn run test`

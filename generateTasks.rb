@@ -1,28 +1,45 @@
 tasks = []
-# [✅] 
+checkmark = "[✅]" 
+line_num=0
+text=File.open('db/tasks.text').read
+text.gsub!(/\r\n?/, "\n")
+baseValues = Hash.new { |hash, key| block }
+text.each_line do |line|
+  continue if line.nil? 
+  parts=line.split("|")
+  name=parts[0]
+  descr=parts[1].gsub(/\r?/, "").gsub(/\n?/, "")
+  continue if name.nil? 
+  continue if descr.nil?
+  baseValues[name] = descr
+  print "#{line_num += 1} #{name} -> #{descr}"
+end
 
-
-nicknames = [] 
+img1 = "https://source.unsplash.com/random/250x140"
+img2 = "https://source.unsplash.com/random/590x375"
 baseUrl = 'https://github.com/salbador/schunppertag-react-typescript-redux-architecture'
-highscores = []
-21.times do | i |
+imga = baseUrl + "/master/assets/images/taska.jpg"
+imgb = baseUrl + "/master/assets/images/taskb.jpg"
+tasks = []
+i = 0
+baseValues.each do | name, descr |
+    i += 1
     r = rand 100
-    id = (10709 + i).to_s
-    score = (3000 - (i * i + (i * i))).to_s 
-    id2 = (11320 + i).to_s
-    name = Faker::Name.name
-    url = name.downcase.gsub(' ', '-')
-    address = Faker::Address
-    gender = Faker::Gender.binary_type == 'Female' ? 'woman' : 'man'
-    img1 = Faker::LoremFlickr.image(size: "210x295", search_terms: [ address.country, 'face', 'human', gender])
-    img2 = Faker::LoremFlickr.image(size: "690x1035", search_terms: [ address.country, 'face', 'human', gender])
-    img3 = Faker::Fillmurray.image(grayscale: false, width: 210, height: 295)
-    nickname = generateNick(nicknames, r)
-    nicknames << nickname
-    highscores << '{
-        "id": 4154,
-        "url": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/",
-        "name": "Task A",
+    id = (4154 + i).to_s
+    imgsmall = img1
+    imgbig = img2
+    if name.to_s === 'Task A' 
+      imgsmall = imga
+      imgbig = imga
+    end
+    if name.to_s === 'Task B' 
+      imgsmall = imgb
+      imgbig = imgb
+    end
+    tasks << '{
+        "id": ' + id +',
+        "url": "' + baseUrl +'/master/",
+        "name": "' + name.to_s + '",
         "milestone": 0,
         "number": 1,
         "type": "regular",
@@ -31,23 +48,23 @@ highscores = []
         "addedstamp": "2020-11-03T03:00:00+00:00",
         "runtime": 60,
         "image": {
-          "medium": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taska.jpg",
-          "original": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture/master/assets/images/taska.jpg"
+          "medium": "' + imgsmall.to_s + '",
+          "original": "' + imgbig.to_s + '"
         },
-        "summary": "<p>A : Develop a game with the techniques of your choice. The game should reflect the following rules:.</p>",
-        "_links": { "self": { "href": "https://raw.githubusercontent.com/salbador/schunppertag-react-typescript-redux-architecture" } }
-      },'
+        "summary": "<p>' + descr.to_s + '</p>",
+        "_links": { "self": { "href": "' + baseUrl +'" } }
+      }'
        
 end 
 
 puts '['
-puts highscores.join(',')
+puts tasks.join(',')
 puts ']'
 
 begin
-  file = File.open('db/board.json', "w")
+  file = File.open('db/tasks.json', "w")
   file.write("[") 
-  file.write(highscores.join(','))
+  file.write(tasks.join(','))
   file.write("]") 
 rescue IOError => e
   #some error occur, dir not writable etc.

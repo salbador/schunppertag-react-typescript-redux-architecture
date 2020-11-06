@@ -87,7 +87,7 @@ function applicationState(state = initialState, action: ActionModel) {
   newState.defeat = !movePossible(newState.board);
   newState.encouragement = false;
   let found = false;
-  victoryEncouragements.map(function(i) {
+  victoryEncouragements.forEach(function(i) {
     found = !!newState.board.find(function(v) {
       return v === i;
     });
